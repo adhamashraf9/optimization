@@ -1,0 +1,165 @@
+{
+  "complete": true,
+  "cases": [
+    "medium"
+  ],
+  "configs": {
+    "baseline": {
+      "budget": 4000,
+      "move_scale": 0.05,
+      "calibration_samples": 100,
+      "target_acceptance": 0.8,
+      "temperature_multiplier": 1.0,
+      "final_temperature_ratio": 0.01,
+      "energy_weight": 0.1,
+      "penalty_weight": 10000.0,
+      "max_initialization_attempts": 10000,
+      "trace_interval": 25,
+      "operator": "mixed",
+      "constraint_mode": "feasible"
+    },
+    "temperature_0.5": {
+      "budget": 4000,
+      "move_scale": 0.05,
+      "calibration_samples": 100,
+      "target_acceptance": 0.8,
+      "temperature_multiplier": 0.5,
+      "final_temperature_ratio": 0.01,
+      "energy_weight": 0.1,
+      "penalty_weight": 10000.0,
+      "max_initialization_attempts": 10000,
+      "trace_interval": 25,
+      "operator": "mixed",
+      "constraint_mode": "feasible"
+    },
+    "temperature_2": {
+      "budget": 4000,
+      "move_scale": 0.05,
+      "calibration_samples": 100,
+      "target_acceptance": 0.8,
+      "temperature_multiplier": 2.0,
+      "final_temperature_ratio": 0.01,
+      "energy_weight": 0.1,
+      "penalty_weight": 10000.0,
+      "max_initialization_attempts": 10000,
+      "trace_interval": 25,
+      "operator": "mixed",
+      "constraint_mode": "feasible"
+    },
+    "move_0.025": {
+      "budget": 4000,
+      "move_scale": 0.025,
+      "calibration_samples": 100,
+      "target_acceptance": 0.8,
+      "temperature_multiplier": 1.0,
+      "final_temperature_ratio": 0.01,
+      "energy_weight": 0.1,
+      "penalty_weight": 10000.0,
+      "max_initialization_attempts": 10000,
+      "trace_interval": 25,
+      "operator": "mixed",
+      "constraint_mode": "feasible"
+    },
+    "move_0.1": {
+      "budget": 4000,
+      "move_scale": 0.1,
+      "calibration_samples": 100,
+      "target_acceptance": 0.8,
+      "temperature_multiplier": 1.0,
+      "final_temperature_ratio": 0.01,
+      "energy_weight": 0.1,
+      "penalty_weight": 10000.0,
+      "max_initialization_attempts": 10000,
+      "trace_interval": 25,
+      "operator": "mixed",
+      "constraint_mode": "feasible"
+    }
+  },
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "experiment": {
+    "configuration_hash": "bd2973c0702000b2db26fd1b7c50fcda6a2ea7edd41ef29b4fedddb7f84dd07a",
+    "version": "final_v1",
+    "study": "sensitivity"
+  },
+  "case_configs": {
+    "medium": {
+      "baseline": {
+        "budget": 4000,
+        "move_scale": 0.05,
+        "calibration_samples": 100,
+        "target_acceptance": 0.8,
+        "temperature_multiplier": 1.0,
+        "final_temperature_ratio": 0.01,
+        "energy_weight": 0.1,
+        "penalty_weight": 10000.0,
+        "max_initialization_attempts": 10000,
+        "trace_interval": 25,
+        "operator": "mixed",
+        "constraint_mode": "feasible"
+      },
+      "temperature_0.5": {
+        "budget": 4000,
+        "move_scale": 0.05,
+        "calibration_samples": 100,
+        "target_acceptance": 0.8,
+        "temperature_multiplier": 0.5,
+        "final_temperature_ratio": 0.01,
+        "energy_weight": 0.1,
+        "penalty_weight": 10000.0,
+        "max_initialization_attempts": 10000,
+        "trace_interval": 25,
+        "operator": "mixed",
+        "constraint_mode": "feasible"
+      },
+      "temperature_2": {
+        "budget": 4000,
+        "move_scale": 0.05,
+        "calibration_samples": 100,
+        "target_acceptance": 0.8,
+        "temperature_multiplier": 2.0,
+        "final_temperature_ratio": 0.01,
+        "energy_weight": 0.1,
+        "penalty_weight": 10000.0,
+        "max_initialization_attempts": 10000,
+        "trace_interval": 25,
+        "operator": "mixed",
+        "constraint_mode": "feasible"
+      },
+      "move_0.025": {
+        "budget": 4000,
+        "move_scale": 0.025,
+        "calibration_samples": 100,
+        "target_acceptance": 0.8,
+        "temperature_multiplier": 1.0,
+        "final_temperature_ratio": 0.01,
+        "energy_weight": 0.1,
+        "penalty_weight": 10000.0,
+        "max_initialization_attempts": 10000,
+        "trace_interval": 25,
+        "operator": "mixed",
+        "constraint_mode": "feasible"
+      },
+      "move_0.1": {
+        "budget": 4000,
+        "move_scale": 0.1,
+        "calibration_samples": 100,
+        "target_acceptance": 0.8,
+        "temperature_multiplier": 1.0,
+        "final_temperature_ratio": 0.01,
+        "energy_weight": 0.1,
+        "penalty_weight": 10000.0,
+        "max_initialization_attempts": 10000,
+        "trace_interval": 25,
+        "operator": "mixed",
+        "constraint_mode": "feasible"
+      }
+    }
+  },
+  "note": "Quality statistics conditional on feasible results; failures retained. No resampling of rejected candidates."
+}

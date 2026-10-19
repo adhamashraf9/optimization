@@ -1,0 +1,223 @@
+{
+  "scope": "finite grid only; not a continuous global optimum",
+  "problem": {
+    "num_uavs": 2,
+    "targets": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ]
+    ],
+    "weights": [
+      2.0,
+      3.0
+    ],
+    "gcs": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": [
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        10.0,
+        20.0
+      ]
+    ],
+    "r_comm": 40.0,
+    "d_min": 5.0,
+    "beam_angle_deg": 45.0,
+    "p_base": 100.0,
+    "beta_power": 0.5,
+    "metadata": {}
+  },
+  "sites": [
+    [
+      0.0,
+      0.0,
+      10.0
+    ],
+    [
+      20.0,
+      0.0,
+      10.0
+    ],
+    [
+      0.0,
+      0.0,
+      20.0
+    ],
+    [
+      20.0,
+      0.0,
+      20.0
+    ]
+  ],
+  "initial_positions": [
+    [
+      0.0,
+      0.0,
+      20.0
+    ],
+    [
+      20.0,
+      0.0,
+      20.0
+    ]
+  ],
+  "optimal_positions": [
+    [
+      0.0,
+      0.0,
+      10.0
+    ],
+    [
+      20.0,
+      0.0,
+      10.0
+    ]
+  ],
+  "optimal_evaluation": {
+    "coverage": 5.0,
+    "total_weight": 5.0,
+    "coverage_fraction": 1.0,
+    "power": 210.0,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": -16.0,
+    "covered_targets": [
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "oracle_evaluations": 16,
+  "oracle_runtime_seconds": 0.0005212999985815259,
+  "oracle_optimal_score": -16.0,
+  "oracle_feasible_placements": 12,
+  "trials": [
+    {
+      "seed": 0,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.02004279999891878,
+      "status": "completed"
+    },
+    {
+      "seed": 1,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.01595410000118136,
+      "status": "completed"
+    },
+    {
+      "seed": 2,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.015454399999725865,
+      "status": "completed"
+    },
+    {
+      "seed": 3,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.01651270000002114,
+      "status": "completed"
+    },
+    {
+      "seed": 4,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.01635069999974803,
+      "status": "completed"
+    },
+    {
+      "seed": 5,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.015304999998988933,
+      "status": "completed"
+    },
+    {
+      "seed": 6,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.014876600000206963,
+      "status": "completed"
+    },
+    {
+      "seed": 7,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.015408299999762676,
+      "status": "completed"
+    },
+    {
+      "seed": 8,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.015300099999876693,
+      "status": "completed"
+    },
+    {
+      "seed": 9,
+      "fitness": -16.0,
+      "absolute_gap": 0.0,
+      "hit_optimum": true,
+      "evaluations": 500,
+      "elapsed_seconds": 0.015087199999470613,
+      "status": "completed"
+    }
+  ],
+  "hit_rate": 1.0
+}

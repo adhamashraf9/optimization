@@ -1,0 +1,30 @@
+{
+  "configuration_hash": "bd2973c0702000b2db26fd1b7c50fcda6a2ea7edd41ef29b4fedddb7f84dd07a",
+  "version": "final_v1",
+  "studies": [
+    {
+      "study": "main",
+      "verified_runs": 60,
+      "optimization_evaluations": 220000,
+      "postrun_verification_evaluations": 120,
+      "summary_rows": 6,
+      "note": "Recomputations verify saved data consistency, not global optimality; separate from optimization budget."
+    },
+    {
+      "study": "sensitivity",
+      "verified_runs": 25,
+      "optimization_evaluations": 100000,
+      "postrun_verification_evaluations": 50,
+      "summary_rows": 5,
+      "note": "Recomputations verify saved data consistency, not global optimality; separate from optimization budget."
+    },
+    {
+      "study": "challenging",
+      "verified_runs": 20,
+      "optimization_evaluations": 80000,
+      "postrun_verification_evaluations": 40,
+      "summary_rows": 4,
+      "note": "Recomputations verify saved data consistency, not global optimality; separate from optimization budget."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+Verified 1863 packaged file hashes.
+
+RUN: C:\Users\Adham\AppData\Local\Programs\Python\Python313\python.exe -B -S -m unittest discover -s tests -v
+test_cheap_checks_are_separate (test_amendments.AmendmentTests.test_cheap_checks_are_separate) ... ok
+test_cooling_depends_on_evaluations_not_acceptance (test_amendments.AmendmentTests.test_cooling_depends_on_evaluations_not_acceptance) ... ok
+test_exhausted_initial_budget_is_explicit_failure (test_amendments.AmendmentTests.test_exhausted_initial_budget_is_explicit_failure) ... ok
+test_failed_evaluation_is_not_counted_as_completed (test_amendments.AmendmentTests.test_failed_evaluation_is_not_counted_as_completed) ... ok
+test_failed_initialization_has_no_fabricated_placement (test_amendments.AmendmentTests.test_failed_initialization_has_no_fabricated_placement) ... ok
+test_mixture_reproducible_and_draw_order (test_amendments.AmendmentTests.test_mixture_reproducible_and_draw_order) ... ok
+test_oracle_cost_is_separate (test_amendments.AmendmentTests.test_oracle_cost_is_separate) ... ok
+test_required_exports_and_metrics (test_amendments.AmendmentTests.test_required_exports_and_metrics) ... ok
+test_benchmark_records_gaps (test_benchmark_cases.BenchmarkCaseTests.test_benchmark_records_gaps) ... ok
+test_case_roundtrip_and_determinism (test_benchmark_cases.BenchmarkCaseTests.test_case_roundtrip_and_determinism) ... ok
+test_exact_grid_optimum (test_benchmark_cases.BenchmarkCaseTests.test_exact_grid_optimum) ... ok
+test_malformed_case_and_no_overwrite (test_benchmark_cases.BenchmarkCaseTests.test_malformed_case_and_no_overwrite) ... ok
+test_export_roundtrip_failure_and_overwrite (test_experiments.ExperimentTests.test_export_roundtrip_failure_and_overwrite) ... ok
+test_failed_and_single_run_statistics (test_experiments.ExperimentTests.test_failed_and_single_run_statistics) ... ok
+test_paired_budget_and_summary (test_experiments.ExperimentTests.test_paired_budget_and_summary) ... ok
+test_study_and_sensitivity_configuration (test_experiments.ExperimentTests.test_study_and_sensitivity_configuration) ... ok
+test_case_budgets_metadata_and_audit (test_final_experiments.FinalExperimentTests.test_case_budgets_metadata_and_audit) ... ok
+test_final_audit_binds_manifest_to_frozen_definition (test_final_experiments.FinalExperimentTests.test_final_audit_binds_manifest_to_frozen_definition) ... ok
+test_frozen_hash_and_input_tampering (test_final_experiments.FinalExperimentTests.test_frozen_hash_and_input_tampering) ... ok
+test_guard_failure_before_or_after_solver_prevents_export (test_final_experiments.FinalExperimentTests.test_guard_failure_before_or_after_solver_prevents_export) ... ok
+test_no_search_budget_not_successful (test_final_experiments.FinalExperimentTests.test_no_search_budget_not_successful) ... ok
+test_scope_and_settings (test_final_experiments.FinalExperimentTests.test_scope_and_settings) ... ok
+test_bounds_collision_and_exact_contact (test_model.ModelTests.test_bounds_collision_and_exact_contact) ... ok
+test_exact_coverage_boundary_uses_computed_radius (test_model.ModelTests.test_exact_coverage_boundary_uses_computed_radius) ... ok
+test_footprint_and_empty_targets (test_model.ModelTests.test_footprint_and_empty_targets) ... ok
+test_invalid_inputs (test_model.ModelTests.test_invalid_inputs) ... ok
+test_mesh_and_disconnected_cluster (test_model.ModelTests.test_mesh_and_disconnected_cluster) ... ok
+test_overlap_and_power (test_model.ModelTests.test_overlap_and_power) ... ok
+test_reference_parity (test_model.ModelTests.test_reference_parity) ... ok
+test_best_feasible_separate_from_infeasible_high_score (test_search.SearchTests.test_best_feasible_separate_from_infeasible_high_score) ... ok
+test_budget_guard (test_search.SearchTests.test_budget_guard) ... ok
+test_calibration_and_cooling (test_search.SearchTests.test_calibration_and_cooling) ... ok
+test_calibration_candidates_update_best (test_search.SearchTests.test_calibration_candidates_update_best) ... ok
+test_failures_and_invalid_config (test_search.SearchTests.test_failures_and_invalid_config) ... ok
+test_feasible_mode_filters_calibration_penalties (test_search.SearchTests.test_feasible_mode_filters_calibration_penalties) ... ok
+test_initialization_finite_and_feasible (test_search.SearchTests.test_initialization_finite_and_feasible) ... ok
+test_initializer_accepts_feasible_fixed_axes (test_search.SearchTests.test_initializer_accepts_feasible_fixed_axes) ... ok
+test_metropolis (test_search.SearchTests.test_metropolis) ... ok
+test_moves (test_search.SearchTests.test_moves) ... ok
+test_reflection (test_search.SearchTests.test_reflection) ... ok
+test_solver_budgets_and_repeatability (test_search.SearchTests.test_solver_budgets_and_repeatability) ... ok
+test_incomplete_study_rejected (test_validation.ValidationTests.test_incomplete_study_rejected) ... ok
+test_saved_study_recomputes_and_detects_tampering (test_validation.ValidationTests.test_saved_study_recomputes_and_detects_tampering) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 1.351s
+
+OK
+
+RUN: C:\Users\Adham\AppData\Local\Programs\Python\Python313\python.exe -B -S -m milestone3.final_experiments verify
+main {'verified_runs': 60, 'optimization_evaluations': 220000, 'postrun_verification_evaluations': 120, 'summary_rows': 6, 'note': 'Recomputations verify saved data consistency, not global optimality; separate from optimization budget.'}
+sensitivity {'verified_runs': 25, 'optimization_evaluations': 100000, 'postrun_verification_evaluations': 50, 'summary_rows': 5, 'note': 'Recomputations verify saved data consistency, not global optimality; separate from optimization budget.'}
+challenging {'verified_runs': 20, 'optimization_evaluations': 80000, 'postrun_verification_evaluations': 40, 'summary_rows': 4, 'note': 'Recomputations verify saved data consistency, not global optimality; separate from optimization budget.'}
+configuration_hash=bd2973c0702000b2db26fd1b7c50fcda6a2ea7edd41ef29b4fedddb7f84dd07a
+
+RUN: C:\Users\Adham\AppData\Local\Programs\Python\Python313\python.exe -B -S -m milestone3 demo --case C:\Users\Adham\Desktop\summer\OPTIMIZATION\project\deliverables\Team47_Milestone3_Submission\cases\medium.json --budget 2000 --seed 0 --output C:\Users\Adham\AppData\Local\Temp\team47_submission_tn4cq8ho\demo
+medium sa_feasible seed=0 evaluations=2000 fitness=152.30801307198567 status=completed
+
+RUN: C:\Users\Adham\AppData\Local\Programs\Python\Python313\python.exe -B -S -m milestone3 benchmark --budget 500 --seeds 0:10 --output C:\Users\Adham\AppData\Local\Temp\team47_submission_tn4cq8ho\benchmark
+Finite-grid optimum=-16.0; hit_rate=1.0; oracle evaluations=16
+
+PASS: integrity, 43-test suite, frozen study, fresh demo and benchmark.
+Submission reminder: the actual narrated video is a separate required deliverable.

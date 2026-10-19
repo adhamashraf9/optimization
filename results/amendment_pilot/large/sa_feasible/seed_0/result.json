@@ -1,0 +1,2960 @@
+{
+  "status": "completed",
+  "initial_positions": [
+    [
+      162.73513775988152,
+      352.32168166288955,
+      47.34759867013264
+    ],
+    [
+      297.88123025008787,
+      362.15125730772274,
+      56.0636389584281
+    ],
+    [
+      194.61314205812388,
+      332.5469243153516,
+      111.44575011908825
+    ],
+    [
+      130.83042552874684,
+      407.2644993240076,
+      50.64131974609484
+    ],
+    [
+      159.24633862265756,
+      438.4803604570066,
+      39.24532041730177
+    ],
+    [
+      267.60180024169415,
+      345.0525148125181,
+      91.40186037802835
+    ],
+    [
+      161.9131418599043,
+      251.39038565118386,
+      35.31776961588659
+    ],
+    [
+      172.94239392695016,
+      246.2966260787967,
+      59.879739861657356
+    ],
+    [
+      206.24642714223023,
+      280.15295739768527,
+      40.883511459958754
+    ],
+    [
+      122.05876859657701,
+      238.06975059300154,
+      60.27723008896413
+    ],
+    [
+      243.97917557153423,
+      174.39880009131474,
+      94.80896836111347
+    ],
+    [
+      21.273948694316232,
+      213.75313891836342,
+      107.28956285988747
+    ],
+    [
+      201.0490483756364,
+      179.3709515974669,
+      57.28374854785241
+    ],
+    [
+      207.64547800051494,
+      424.9565939477969,
+      95.50664160848592
+    ],
+    [
+      9.886906138273133,
+      289.35748050232445,
+      60.07840692167164
+    ],
+    [
+      180.0800037478681,
+      391.7643975492234,
+      94.1565514602824
+    ]
+  ],
+  "initial_evaluation": {
+    "coverage": 406.07881112456033,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.47076122247411206,
+    "power": 2150.813809537417,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 190.99743017081863,
+    "covered_targets": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        15,
+        16
+      ]
+    ]
+  },
+  "best_positions": [
+    [
+      171.86178643027247,
+      334.2752725018787,
+      65.01255344655947
+    ],
+    [
+      259.3548960460185,
+      499.27916035599344,
+      72.42940815669803
+    ],
+    [
+      196.19506504559456,
+      227.2447454286229,
+      91.35610708959675
+    ],
+    [
+      290.6216063287923,
+      320.9940795587865,
+      49.51391680588437
+    ],
+    [
+      254.37918503995053,
+      480.20070921853187,
+      38.056459893295546
+    ],
+    [
+      419.872628177945,
+      302.489638023523,
+      106.4788515226723
+    ],
+    [
+      138.5890307253644,
+      298.48006859341166,
+      38.63983086683922
+    ],
+    [
+      258.5442420824757,
+      259.82720165404135,
+      66.52840550050855
+    ],
+    [
+      250.18299547366067,
+      203.9162521015129,
+      42.03355744349444
+    ],
+    [
+      219.8401048586143,
+      325.51060072140035,
+      63.28099938728362
+    ],
+    [
+      219.43967557015483,
+      79.63988046148157,
+      110.07783520772601
+    ],
+    [
+      61.7646397902928,
+      168.10291085838477,
+      85.37935530560168
+    ],
+    [
+      290.12820489114705,
+      149.50013511898254,
+      73.37144650552516
+    ],
+    [
+      356.6497469426962,
+      422.78777238623024,
+      97.13452569271732
+    ],
+    [
+      15.360825066328463,
+      344.8387680957627,
+      105.11668583245445
+    ],
+    [
+      163.45606174119618,
+      460.18886287441376,
+      94.7152927357764
+    ]
+  ],
+  "best_evaluation": {
+    "coverage": 754.105477447872,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.8742234431160472,
+    "power": 2199.5626156963167,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 534.1492158782403,
+    "covered_targets": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  },
+  "final_positions": [
+    [
+      171.86178643027247,
+      334.2752725018787,
+      65.01255344655947
+    ],
+    [
+      259.3548960460185,
+      499.27916035599344,
+      72.42940815669803
+    ],
+    [
+      196.19506504559456,
+      227.2447454286229,
+      91.35610708959675
+    ],
+    [
+      290.6216063287923,
+      320.9940795587865,
+      49.51391680588437
+    ],
+    [
+      263.20017677962767,
+      459.87316176435183,
+      41.852146904159866
+    ],
+    [
+      419.872628177945,
+      302.489638023523,
+      106.4788515226723
+    ],
+    [
+      140.80765622940194,
+      315.2966833005682,
+      35.70688864442305
+    ],
+    [
+      266.29309270971504,
+      274.79768950281175,
+      70.0847341322598
+    ],
+    [
+      239.0082976281749,
+      185.27066893488663,
+      45.74248939735969
+    ],
+    [
+      222.91823280496288,
+      334.43914587903026,
+      63.387246531616924
+    ],
+    [
+      219.43967557015483,
+      79.63988046148157,
+      110.07783520772601
+    ],
+    [
+      61.7646397902928,
+      168.10291085838477,
+      85.37935530560168
+    ],
+    [
+      307.3314685792125,
+      158.45279200244755,
+      71.50890303976834
+    ],
+    [
+      356.6497469426962,
+      422.78777238623024,
+      97.13452569271732
+    ],
+    [
+      48.9939446016662,
+      366.74060726581797,
+      110.05997518575163
+    ],
+    [
+      144.93001130245926,
+      447.09068972800395,
+      91.98822656462598
+    ]
+  ],
+  "final_evaluation": {
+    "coverage": 754.105477447872,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.8742234431160472,
+    "power": 2203.856581813711,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 533.7198192665008,
+    "covered_targets": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  },
+  "best_penalized_positions": [
+    [
+      171.86178643027247,
+      334.2752725018787,
+      65.01255344655947
+    ],
+    [
+      259.3548960460185,
+      499.27916035599344,
+      72.42940815669803
+    ],
+    [
+      196.19506504559456,
+      227.2447454286229,
+      91.35610708959675
+    ],
+    [
+      290.6216063287923,
+      320.9940795587865,
+      49.51391680588437
+    ],
+    [
+      254.37918503995053,
+      480.20070921853187,
+      38.056459893295546
+    ],
+    [
+      419.872628177945,
+      302.489638023523,
+      106.4788515226723
+    ],
+    [
+      138.5890307253644,
+      298.48006859341166,
+      38.63983086683922
+    ],
+    [
+      258.5442420824757,
+      259.82720165404135,
+      66.52840550050855
+    ],
+    [
+      250.18299547366067,
+      203.9162521015129,
+      42.03355744349444
+    ],
+    [
+      219.8401048586143,
+      325.51060072140035,
+      63.28099938728362
+    ],
+    [
+      219.43967557015483,
+      79.63988046148157,
+      110.07783520772601
+    ],
+    [
+      61.7646397902928,
+      168.10291085838477,
+      85.37935530560168
+    ],
+    [
+      290.12820489114705,
+      149.50013511898254,
+      73.37144650552516
+    ],
+    [
+      356.6497469426962,
+      422.78777238623024,
+      97.13452569271732
+    ],
+    [
+      15.360825066328463,
+      344.8387680957627,
+      105.11668583245445
+    ],
+    [
+      163.45606174119618,
+      460.18886287441376,
+      94.7152927357764
+    ]
+  ],
+  "best_penalized_evaluation": {
+    "coverage": 754.105477447872,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.8742234431160472,
+    "power": 2199.5626156963167,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 534.1492158782403,
+    "covered_targets": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  },
+  "trace": [
+    {
+      "phase": "initialization",
+      "evaluation": 1,
+      "temperature": null,
+      "current_fitness": 190.99743017081863,
+      "current_violation": 0.0,
+      "best_fitness": 190.99743017081863,
+      "best_coverage": 406.07881112456033,
+      "best_power": 2150.813809537417,
+      "accepted_moves": 0,
+      "search_proposals": 0,
+      "feasible_search_proposals": 0,
+      "elapsed_seconds": 0.002107899999828078
+    },
+    {
+      "phase": "calibration",
+      "evaluation": 25,
+      "temperature": null,
+      "current_fitness": 190.99743017081863,
+      "current_violation": 0.0,
+      "best_fitness": 206.67921071149476,
+      "best_coverage": 421.78677338001336,
+      "best_power": 2151.075626685186,
+      "accepted_moves": 0,
+      "search_proposals": 0,
+      "feasible_search_proposals": 0,
+      "elapsed_seconds": 0.02608469999904628
+    },
+    {
+      "phase": "calibration",
+      "evaluation": 50,
+      "temperature": null,
+      "current_fitness": 190.99743017081863,
+      "current_violation": 0.0,
+      "best_fitness": 206.67921071149476,
+      "best_coverage": 421.78677338001336,
+      "best_power": 2151.075626685186,
+      "accepted_moves": 0,
+      "search_proposals": 0,
+      "feasible_search_proposals": 0,
+      "elapsed_seconds": 0.04589010000017879
+    },
+    {
+      "phase": "calibration",
+      "evaluation": 75,
+      "temperature": null,
+      "current_fitness": 190.99743017081863,
+      "current_violation": 0.0,
+      "best_fitness": 206.67921071149476,
+      "best_coverage": 421.78677338001336,
+      "best_power": 2151.075626685186,
+      "accepted_moves": 0,
+      "search_proposals": 0,
+      "feasible_search_proposals": 0,
+      "elapsed_seconds": 0.06397669999932987
+    },
+    {
+      "phase": "calibration",
+      "evaluation": 100,
+      "temperature": null,
+      "current_fitness": 190.99743017081863,
+      "current_violation": 0.0,
+      "best_fitness": 206.67921071149476,
+      "best_coverage": 421.78677338001336,
+      "best_power": 2151.075626685186,
+      "accepted_moves": 0,
+      "search_proposals": 0,
+      "feasible_search_proposals": 0,
+      "elapsed_seconds": 0.08236779999970167
+    },
+    {
+      "phase": "search",
+      "evaluation": 102,
+      "temperature": 15.11916057584091,
+      "current_fitness": 190.87926137728806,
+      "current_violation": 0.0,
+      "best_fitness": 206.67921071149476,
+      "best_coverage": 421.78677338001336,
+      "best_power": 2151.075626685186,
+      "accepted_moves": 1,
+      "search_proposals": 1,
+      "feasible_search_proposals": 1,
+      "elapsed_seconds": 0.08380849999957718
+    },
+    {
+      "phase": "search",
+      "evaluation": 125,
+      "temperature": 13.437012935319707,
+      "current_fitness": 215.19334810903482,
+      "current_violation": 0.0,
+      "best_fitness": 215.21873447769548,
+      "best_coverage": 431.36268237325356,
+      "best_power": 2161.439478955581,
+      "accepted_moves": 23,
+      "search_proposals": 24,
+      "feasible_search_proposals": 24,
+      "elapsed_seconds": 0.10202670000035141
+    },
+    {
+      "phase": "search",
+      "evaluation": 150,
+      "temperature": 11.820162521883535,
+      "current_fitness": 226.35601683183296,
+      "current_violation": 0.0,
+      "best_fitness": 226.37204299000152,
+      "best_coverage": 441.9088203768908,
+      "best_power": 2155.3677738688925,
+      "accepted_moves": 47,
+      "search_proposals": 49,
+      "feasible_search_proposals": 49,
+      "elapsed_seconds": 0.12309569999888481
+    },
+    {
+      "phase": "search",
+      "evaluation": 175,
+      "temperature": 10.397864668008959,
+      "current_fitness": 250.15517890205518,
+      "current_violation": 0.0,
+      "best_fitness": 262.59983865262586,
+      "best_coverage": 478.6367578439677,
+      "best_power": 2160.369191913418,
+      "accepted_moves": 67,
+      "search_proposals": 74,
+      "feasible_search_proposals": 73,
+      "elapsed_seconds": 0.1430368000001181
+    },
+    {
+      "phase": "search",
+      "evaluation": 200,
+      "temperature": 9.146709231287364,
+      "current_fitness": 247.98861464017887,
+      "current_violation": 0.0,
+      "best_fitness": 262.59983865262586,
+      "best_coverage": 478.6367578439677,
+      "best_power": 2160.369191913418,
+      "accepted_moves": 90,
+      "search_proposals": 99,
+      "feasible_search_proposals": 98,
+      "elapsed_seconds": 0.16757329999927606
+    },
+    {
+      "phase": "search",
+      "evaluation": 225,
+      "temperature": 8.046102967575706,
+      "current_fitness": 255.20853881802188,
+      "current_violation": 0.0,
+      "best_fitness": 262.75532374076647,
+      "best_coverage": 479.7765863793343,
+      "best_power": 2170.2126263856776,
+      "accepted_moves": 111,
+      "search_proposals": 124,
+      "feasible_search_proposals": 123,
+      "elapsed_seconds": 0.18735469999955967
+    },
+    {
+      "phase": "search",
+      "evaluation": 250,
+      "temperature": 7.07793057894317,
+      "current_fitness": 271.11807602497197,
+      "current_violation": 0.0,
+      "best_fitness": 271.11807602497197,
+      "best_coverage": 487.8656005474428,
+      "best_power": 2167.4752452247085,
+      "accepted_moves": 134,
+      "search_proposals": 149,
+      "feasible_search_proposals": 147,
+      "elapsed_seconds": 0.2058041999989655
+    },
+    {
+      "phase": "search",
+      "evaluation": 275,
+      "temperature": 6.226256547078847,
+      "current_fitness": 315.76102649557566,
+      "current_violation": 0.0,
+      "best_fitness": 315.76102649557566,
+      "best_coverage": 531.7266527391465,
+      "best_power": 2159.6562624357084,
+      "accepted_moves": 155,
+      "search_proposals": 174,
+      "feasible_search_proposals": 172,
+      "elapsed_seconds": 0.24622679999993125
+    },
+    {
+      "phase": "search",
+      "evaluation": 300,
+      "temperature": 5.477062844522917,
+      "current_fitness": 329.28765050592307,
+      "current_violation": 0.0,
+      "best_fitness": 329.4871243652963,
+      "best_coverage": 545.3711198057091,
+      "best_power": 2158.8399544041276,
+      "accepted_moves": 173,
+      "search_proposals": 199,
+      "feasible_search_proposals": 197,
+      "elapsed_seconds": 0.27174319999903673
+    },
+    {
+      "phase": "search",
+      "evaluation": 325,
+      "temperature": 4.81801820661046,
+      "current_fitness": 328.54634460761304,
+      "current_violation": 0.0,
+      "best_fitness": 329.5160426137343,
+      "best_coverage": 545.3711198057091,
+      "best_power": 2158.5507719197476,
+      "accepted_moves": 196,
+      "search_proposals": 224,
+      "feasible_search_proposals": 222,
+      "elapsed_seconds": 0.30503440000029514
+    },
+    {
+      "phase": "search",
+      "evaluation": 350,
+      "temperature": 4.238275166486954,
+      "current_fitness": 317.9347895391878,
+      "current_violation": 0.0,
+      "best_fitness": 329.5160426137343,
+      "best_coverage": 545.3711198057091,
+      "best_power": 2158.5507719197476,
+      "accepted_moves": 219,
+      "search_proposals": 249,
+      "feasible_search_proposals": 247,
+      "elapsed_seconds": 0.3201546000000235
+    },
+    {
+      "phase": "search",
+      "evaluation": 375,
+      "temperature": 3.728291512517386,
+      "current_fitness": 326.6422811872589,
+      "current_violation": 0.0,
+      "best_fitness": 329.5160426137343,
+      "best_coverage": 545.3711198057091,
+      "best_power": 2158.5507719197476,
+      "accepted_moves": 239,
+      "search_proposals": 274,
+      "feasible_search_proposals": 272,
+      "elapsed_seconds": 0.33469809999951394
+    },
+    {
+      "phase": "search",
+      "evaluation": 400,
+      "temperature": 3.2796732293884596,
+      "current_fitness": 325.9416763647841,
+      "current_violation": 0.0,
+      "best_fitness": 329.5160426137343,
+      "best_coverage": 545.3711198057091,
+      "best_power": 2158.5507719197476,
+      "accepted_moves": 260,
+      "search_proposals": 299,
+      "feasible_search_proposals": 297,
+      "elapsed_seconds": 0.3527028999997128
+    },
+    {
+      "phase": "search",
+      "evaluation": 425,
+      "temperature": 2.8850363378116253,
+      "current_fitness": 362.3896028413064,
+      "current_violation": 0.0,
+      "best_fitness": 362.44203406730594,
+      "best_coverage": 578.4473272755508,
+      "best_power": 2160.052932082449,
+      "accepted_moves": 283,
+      "search_proposals": 324,
+      "feasible_search_proposals": 322,
+      "elapsed_seconds": 0.3705953999997291
+    },
+    {
+      "phase": "search",
+      "evaluation": 450,
+      "temperature": 2.537885358793972,
+      "current_fitness": 389.6887079973005,
+      "current_violation": 0.0,
+      "best_fitness": 389.8669833533547,
+      "best_coverage": 605.9729471990214,
+      "best_power": 2161.059638456667,
+      "accepted_moves": 301,
+      "search_proposals": 349,
+      "feasible_search_proposals": 347,
+      "elapsed_seconds": 0.3858894999993936
+    },
+    {
+      "phase": "search",
+      "evaluation": 475,
+      "temperature": 2.2325064020740792,
+      "current_fitness": 440.99169293145326,
+      "current_violation": 0.0,
+      "best_fitness": 441.5187633928598,
+      "best_coverage": 657.3487288717074,
+      "best_power": 2158.299654788476,
+      "accepted_moves": 320,
+      "search_proposals": 374,
+      "feasible_search_proposals": 372,
+      "elapsed_seconds": 0.4007244999993418
+    },
+    {
+      "phase": "search",
+      "evaluation": 500,
+      "temperature": 1.963873119024665,
+      "current_fitness": 453.48178479075204,
+      "current_violation": 0.0,
+      "best_fitness": 458.5342456047406,
+      "best_coverage": 675.4746229592124,
+      "best_power": 2169.4037735447178,
+      "accepted_moves": 341,
+      "search_proposals": 399,
+      "feasible_search_proposals": 397,
+      "elapsed_seconds": 0.4148784999997588
+    },
+    {
+      "phase": "search",
+      "evaluation": 525,
+      "temperature": 1.7275639720650124,
+      "current_fitness": 465.8140580116249,
+      "current_violation": 0.0,
+      "best_fitness": 465.897027727293,
+      "best_coverage": 682.8706405671102,
+      "best_power": 2169.7361283981713,
+      "accepted_moves": 357,
+      "search_proposals": 424,
+      "feasible_search_proposals": 422,
+      "elapsed_seconds": 0.43096479999985604
+    },
+    {
+      "phase": "search",
+      "evaluation": 550,
+      "temperature": 1.519689458888897,
+      "current_fitness": 472.5190425106488,
+      "current_violation": 0.0,
+      "best_fitness": 472.5190425106488,
+      "best_coverage": 689.753678822569,
+      "best_power": 2172.3463631192017,
+      "accepted_moves": 374,
+      "search_proposals": 449,
+      "feasible_search_proposals": 447,
+      "elapsed_seconds": 0.4458482999998523
+    },
+    {
+      "phase": "search",
+      "evaluation": 575,
+      "temperature": 1.3368280936638557,
+      "current_fitness": 484.67498405497236,
+      "current_violation": 0.0,
+      "best_fitness": 485.01758692683836,
+      "best_coverage": 702.3683378438751,
+      "best_power": 2173.5075091703675,
+      "accepted_moves": 389,
+      "search_proposals": 474,
+      "feasible_search_proposals": 472,
+      "elapsed_seconds": 0.4599772000001394
+    },
+    {
+      "phase": "search",
+      "evaluation": 600,
+      "temperature": 1.1759700914919562,
+      "current_fitness": 491.5559355124774,
+      "current_violation": 0.0,
+      "best_fitness": 491.5559355124774,
+      "best_coverage": 707.894571542456,
+      "best_power": 2163.386360299786,
+      "accepted_moves": 409,
+      "search_proposals": 499,
+      "feasible_search_proposals": 497,
+      "elapsed_seconds": 0.47560859999975946
+    },
+    {
+      "phase": "search",
+      "evaluation": 625,
+      "temperature": 1.0344678292131488,
+      "current_fitness": 491.58786036991773,
+      "current_violation": 0.0,
+      "best_fitness": 491.70613593483154,
+      "best_coverage": 707.894571542456,
+      "best_power": 2161.8843560762443,
+      "accepted_moves": 428,
+      "search_proposals": 524,
+      "feasible_search_proposals": 522,
+      "elapsed_seconds": 0.4961416999994981
+    },
+    {
+      "phase": "search",
+      "evaluation": 650,
+      "temperature": 0.9099922671666717,
+      "current_fitness": 492.7131520076239,
+      "current_violation": 0.0,
+      "best_fitness": 492.9847785876458,
+      "best_coverage": 710.0930156601333,
+      "best_power": 2171.0823707248755,
+      "accepted_moves": 444,
+      "search_proposals": 549,
+      "feasible_search_proposals": 547,
+      "elapsed_seconds": 0.5143611000003148
+    },
+    {
+      "phase": "search",
+      "evaluation": 675,
+      "temperature": 0.8004946146396934,
+      "current_fitness": 493.0717873769709,
+      "current_violation": 0.0,
+      "best_fitness": 493.0717873769709,
+      "best_coverage": 710.0930156601333,
+      "best_power": 2170.212282831624,
+      "accepted_moves": 458,
+      "search_proposals": 574,
+      "feasible_search_proposals": 572,
+      "elapsed_seconds": 0.5343204000000696
+    },
+    {
+      "phase": "search",
+      "evaluation": 700,
+      "temperature": 0.7041726080401794,
+      "current_fitness": 498.9429214418716,
+      "current_violation": 0.0,
+      "best_fitness": 498.98458847592974,
+      "best_coverage": 716.326081022844,
+      "best_power": 2173.414925469143,
+      "accepted_moves": 474,
+      "search_proposals": 599,
+      "feasible_search_proposals": 597,
+      "elapsed_seconds": 0.5502650999987964
+    },
+    {
+      "phase": "search",
+      "evaluation": 725,
+      "temperature": 0.6194408467535999,
+      "current_fitness": 503.14508082647524,
+      "current_violation": 0.0,
+      "best_fitness": 503.31724823671703,
+      "best_coverage": 721.5075440149127,
+      "best_power": 2181.9029577819565,
+      "accepted_moves": 493,
+      "search_proposals": 624,
+      "feasible_search_proposals": 622,
+      "elapsed_seconds": 0.5705839000002015
+    },
+    {
+      "phase": "search",
+      "evaluation": 750,
+      "temperature": 0.5449046984300232,
+      "current_fitness": 510.91329677091824,
+      "current_violation": 0.0,
+      "best_fitness": 510.91329677091824,
+      "best_coverage": 727.8924730780478,
+      "best_power": 2169.7917630712955,
+      "accepted_moves": 510,
+      "search_proposals": 649,
+      "feasible_search_proposals": 647,
+      "elapsed_seconds": 0.5917014999995445
+    },
+    {
+      "phase": "search",
+      "evaluation": 775,
+      "temperature": 0.47933734419878055,
+      "current_fitness": 512.9312450689272,
+      "current_violation": 0.0,
+      "best_fitness": 513.2924306022204,
+      "best_coverage": 730.3260281030588,
+      "best_power": 2170.3359750083832,
+      "accepted_moves": 523,
+      "search_proposals": 674,
+      "feasible_search_proposals": 672,
+      "elapsed_seconds": 0.6079783999994106
+    },
+    {
+      "phase": "search",
+      "evaluation": 800,
+      "temperature": 0.42165958598913916,
+      "current_fitness": 512.6206641352483,
+      "current_violation": 0.0,
+      "best_fitness": 513.2924306022204,
+      "best_coverage": 730.3260281030588,
+      "best_power": 2170.3359750083832,
+      "accepted_moves": 544,
+      "search_proposals": 699,
+      "feasible_search_proposals": 697,
+      "elapsed_seconds": 0.6286789999994653
+    },
+    {
+      "phase": "search",
+      "evaluation": 825,
+      "temperature": 0.37092208359797657,
+      "current_fitness": 518.6878229021017,
+      "current_violation": 0.0,
+      "best_fitness": 519.0468665137121,
+      "best_coverage": 737.1105490308765,
+      "best_power": 2180.636825171644,
+      "accepted_moves": 558,
+      "search_proposals": 724,
+      "feasible_search_proposals": 722,
+      "elapsed_seconds": 0.6427005999994435
+    },
+    {
+      "phase": "search",
+      "evaluation": 850,
+      "temperature": 0.32628972913758963,
+      "current_fitness": 518.2958224509489,
+      "current_violation": 0.0,
+      "best_fitness": 519.0468665137121,
+      "best_coverage": 737.1105490308765,
+      "best_power": 2180.636825171644,
+      "accepted_moves": 569,
+      "search_proposals": 749,
+      "feasible_search_proposals": 747,
+      "elapsed_seconds": 0.6624049999991257
+    },
+    {
+      "phase": "search",
+      "evaluation": 875,
+      "temperature": 0.287027901676713,
+      "current_fitness": 517.8556677453757,
+      "current_violation": 0.0,
+      "best_fitness": 519.0468665137121,
+      "best_coverage": 737.1105490308765,
+      "best_power": 2180.636825171644,
+      "accepted_moves": 583,
+      "search_proposals": 774,
+      "feasible_search_proposals": 772,
+      "elapsed_seconds": 0.6805242999998882
+    },
+    {
+      "phase": "search",
+      "evaluation": 900,
+      "temperature": 0.25249037583465217,
+      "current_fitness": 526.0723190546341,
+      "current_violation": 0.0,
+      "best_fitness": 526.0751384454513,
+      "best_coverage": 745.8187015966924,
+      "best_power": 2197.4356315124105,
+      "accepted_moves": 599,
+      "search_proposals": 799,
+      "feasible_search_proposals": 797,
+      "elapsed_seconds": 0.6955034999991767
+    },
+    {
+      "phase": "search",
+      "evaluation": 925,
+      "temperature": 0.22210868531146755,
+      "current_fitness": 526.6710605190009,
+      "current_violation": 0.0,
+      "best_fitness": 526.7695650055973,
+      "best_coverage": 745.8187015966924,
+      "best_power": 2190.4913659109507,
+      "accepted_moves": 613,
+      "search_proposals": 824,
+      "feasible_search_proposals": 822,
+      "elapsed_seconds": 0.7096309999997175
+    },
+    {
+      "phase": "search",
+      "evaluation": 950,
+      "temperature": 0.19538276628450443,
+      "current_fitness": 533.1072607493132,
+      "current_violation": 0.0,
+      "best_fitness": 533.4342238384957,
+      "best_coverage": 753.2837010928442,
+      "best_power": 2198.4947725434863,
+      "accepted_moves": 627,
+      "search_proposals": 849,
+      "feasible_search_proposals": 847,
+      "elapsed_seconds": 0.728502899999512
+    },
+    {
+      "phase": "search",
+      "evaluation": 975,
+      "temperature": 0.17187272666736328,
+      "current_fitness": 534.0285436332612,
+      "current_violation": 0.0,
+      "best_fitness": 534.0285436332612,
+      "best_coverage": 754.105477447872,
+      "best_power": 2200.7693381461077,
+      "accepted_moves": 643,
+      "search_proposals": 874,
+      "feasible_search_proposals": 872,
+      "elapsed_seconds": 0.7453377000001637
+    },
+    {
+      "phase": "search",
+      "evaluation": 1000,
+      "temperature": 0.1511916057584091,
+      "current_fitness": 533.7198192665008,
+      "current_violation": 0.0,
+      "best_fitness": 534.1492158782403,
+      "best_coverage": 754.105477447872,
+      "best_power": 2199.5626156963167,
+      "accepted_moves": 656,
+      "search_proposals": 899,
+      "feasible_search_proposals": 897,
+      "elapsed_seconds": 0.7649578999989899
+    }
+  ],
+  "evaluations": 1000,
+  "phase_counts": {
+    "initialization": 1,
+    "calibration": 100,
+    "search": 899
+  },
+  "initialization_attempts": 129,
+  "initialization_checks": 505,
+  "initialization_seconds": 0.0009405000000697328,
+  "initial_temperature": 15.11916057584091,
+  "calibration_losses": [
+    0.10014424743999939,
+    0.1770457913315795,
+    0.1804067735033641,
+    0.047181706911260335,
+    0.023942033470916613,
+    0.13697563410005387,
+    0.0909762854348628,
+    8.621597947863307,
+    8.42543631611295,
+    0.12088541679429454,
+    0.05942952068755858,
+    0.04293446196891182,
+    0.013583446940458543,
+    13.695837886627714,
+    0.06056730556943535,
+    0.057964907676137045,
+    16.88557735441654,
+    22.17481424075629,
+    0.08410303026585098,
+    0.10219497945405465,
+    0.09735558516229048,
+    22.17089407442421,
+    0.18467657889479483,
+    0.10340241379344661,
+    13.607584681233675,
+    0.122143764755549,
+    5.534356246709564,
+    0.0812267981467869,
+    0.025995825340032752,
+    0.17227448328236505,
+    22.08999738614446,
+    0.011031571444760857,
+    0.21550200449016188,
+    0.09498057613888022,
+    8.369825508495637,
+    0.1088646999820071,
+    8.701419606449292,
+    0.13938697283697365,
+    8.051480310685776,
+    0.21409046075902438,
+    0.1868044812132723,
+    0.17058534676294812,
+    0.020712977955298584,
+    0.0915384835450368,
+    8.466486835209025,
+    0.14443058206202863,
+    0.8057048273025202,
+    0.21905811841321565,
+    0.015167511545882917,
+    0.11658870927149678,
+    0.14771504342036224,
+    0.10926527868551261,
+    0.09800676096472216,
+    0.077240448578209,
+    16.939413466192406,
+    0.12281058422706792
+  ],
+  "calibration_fallback": false,
+  "proposals": 999,
+  "feasible_proposals": 997,
+  "search_proposals": 899,
+  "feasible_search_proposals": 897,
+  "accepted_moves": 656,
+  "elapsed_seconds": 0.764970700000049
+}

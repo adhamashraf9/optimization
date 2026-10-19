@@ -1,2 +1,19 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve submitted bytes for frozen experiment and package SHA-256 checks.
+/cases/** -text
+/docs/** -text
+/experiments/** -text
+/figures/** -text
+/MANIFEST.sha256.json -text
+/matlab/** -text
+/milestone3/** -text
+/README.md -text
+/report/** -text
+/results/** -text
+/run_matlab_figures.m -text
+/tests/** -text
+/verification/** -text
+/verify_submission.py -text
+/video/** -text

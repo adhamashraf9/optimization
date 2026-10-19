@@ -1,0 +1,390 @@
+{
+  "status": "completed",
+  "total_evaluations": 4000,
+  "initialization_evaluations": 1,
+  "calibration_evaluations": 100,
+  "search_evaluations": 3899,
+  "initialization_checks": 187,
+  "initialization_attempts": 54,
+  "neighbor_proposals": 3999,
+  "infeasible_evaluated_proposals": 157,
+  "accepted_moves": 3114,
+  "elapsed_seconds": 0.6678725000001577,
+  "initial_temperature": 8.319832092083791,
+  "calibration_losses": [
+    0.07175500028544946,
+    0.10918602674362887,
+    0.05124607102462164,
+    0.18536662645043123,
+    0.05701863215418257,
+    0.13834726973573197,
+    0.08369264768892037,
+    0.02380638085621456,
+    0.08539068224456514,
+    0.0992091086459368,
+    15.71698329065137,
+    0.06083558644050413,
+    3.671608932681707,
+    0.2243197065406406,
+    0.047147711573686024,
+    0.21345099608618057,
+    0.17684202079749411,
+    0.09799309473861229,
+    0.0501199999698656,
+    15.453844591473128,
+    0.19142501529988465,
+    0.1505199542931308,
+    0.00032495474074778485,
+    15.618641249536978,
+    0.040293926110123834,
+    0.012062220686402725,
+    0.10691970970201226,
+    15.411849389993591,
+    0.10488210277563326,
+    0.18396599347927634,
+    0.008766021683058511,
+    0.007674726913705854,
+    0.020006865161619203,
+    0.008422678019471164,
+    0.119674786435084,
+    0.21068165497361235,
+    0.20468057606471746,
+    0.0626617414605306,
+    0.11703664619265908,
+    0.14224585135482926,
+    15.72057115835554,
+    0.18079462084115505,
+    0.0063494983787535375,
+    0.008043985608978232,
+    0.05791764514961528,
+    0.08519910081939486
+  ],
+  "calibration_fallback": false,
+  "initial_evaluation": {
+    "coverage": 37.717571584990594,
+    "total_weight": 265.6328721546066,
+    "coverage_fraction": 0.14199135550903424,
+    "power": 1176.5542488283047,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": -79.93785329783988,
+    "covered_targets": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ]
+    ]
+  },
+  "best_evaluation": {
+    "coverage": 257.4349674375634,
+    "total_weight": 265.6328721546066,
+    "coverage_fraction": 0.9691382145193544,
+    "power": 942.6862010633163,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 163.16634733123175,
+    "covered_targets": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ]
+  },
+  "experiment": {
+    "configuration_hash": "bd2973c0702000b2db26fd1b7c50fcda6a2ea7edd41ef29b4fedddb7f84dd07a",
+    "version": "final_v1",
+    "study": "challenging"
+  }
+}

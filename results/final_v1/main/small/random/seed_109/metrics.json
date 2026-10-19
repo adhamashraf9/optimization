@@ -1,0 +1,135 @@
+{
+  "status": "completed",
+  "total_evaluations": 2000,
+  "initialization_evaluations": 1,
+  "calibration_evaluations": 0,
+  "search_evaluations": 1999,
+  "initialization_checks": 70,
+  "initialization_attempts": 21,
+  "neighbor_proposals": 1999,
+  "infeasible_evaluated_proposals": 1490,
+  "accepted_moves": 0,
+  "elapsed_seconds": 0.15288340000006428,
+  "initial_temperature": null,
+  "calibration_losses": [],
+  "calibration_fallback": false,
+  "initial_evaluation": {
+    "coverage": 4.635048976545919,
+    "total_weight": 54.12541718117865,
+    "coverage_fraction": 0.0856353487499343,
+    "power": 569.8836027994682,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": -52.35331130340091,
+    "covered_targets": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "best_evaluation": {
+    "coverage": 46.61595886754359,
+    "total_weight": 54.12541718117865,
+    "coverage_fraction": 0.8612581906112982,
+    "power": 598.44091864282,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": -13.22813299673841,
+    "covered_targets": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "experiment": {
+    "configuration_hash": "bd2973c0702000b2db26fd1b7c50fcda6a2ea7edd41ef29b4fedddb7f84dd07a",
+    "version": "final_v1",
+    "study": "main"
+  }
+}

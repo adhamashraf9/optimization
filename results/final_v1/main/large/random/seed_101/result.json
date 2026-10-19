@@ -1,0 +1,4831 @@
+{
+  "status": "completed",
+  "initial_positions": [
+    [
+      222.7152352954207,
+      161.09754164737177,
+      105.44285819160558
+    ],
+    [
+      296.66231921831985,
+      252.40808991749117,
+      50.55660619489734
+    ],
+    [
+      320.330463962926,
+      293.9485304787123,
+      42.176913646628975
+    ],
+    [
+      318.00189052153075,
+      318.07730678640223,
+      84.03336145240547
+    ],
+    [
+      147.35155035645658,
+      313.3632431173703,
+      117.85910966341675
+    ],
+    [
+      285.16472826046396,
+      130.71728183686884,
+      87.80532354868032
+    ],
+    [
+      338.6671372110661,
+      221.2880852064064,
+      112.53821286672155
+    ],
+    [
+      214.29085432254527,
+      292.12743883320866,
+      65.9940245748279
+    ],
+    [
+      418.54307995518246,
+      216.50824744310643,
+      115.30110573375401
+    ],
+    [
+      155.52775411408172,
+      142.38720676784166,
+      105.68280077411046
+    ],
+    [
+      247.46325634804555,
+      159.58347590258987,
+      65.4255547372569
+    ],
+    [
+      262.97558720763493,
+      266.009053179205,
+      32.320165678277135
+    ],
+    [
+      240.0492965508498,
+      407.0428191677196,
+      78.34215252991424
+    ],
+    [
+      438.6419358473677,
+      110.64613167402149,
+      76.53263721081828
+    ],
+    [
+      341.02909739742165,
+      320.1919472426854,
+      88.81157138890887
+    ],
+    [
+      312.4271728388166,
+      45.85157066086987,
+      35.957969669433325
+    ]
+  ],
+  "initial_evaluation": {
+    "coverage": 573.4896000904281,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.6648380999420015,
+    "power": 2232.3901839308287,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 350.2505816973452,
+    "covered_targets": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        5,
+        14
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        16
+      ]
+    ]
+  },
+  "best_positions": [
+    [
+      24.51708770177169,
+      457.6753405570059,
+      71.3637427441623
+    ],
+    [
+      348.16952331759006,
+      184.32804472493365,
+      93.57706418860131
+    ],
+    [
+      290.17350251637055,
+      429.0136665192807,
+      32.27474752518167
+    ],
+    [
+      465.64533319282066,
+      281.33825309977925,
+      82.9491981643124
+    ],
+    [
+      235.8851148677441,
+      411.81241458350877,
+      104.02840166358469
+    ],
+    [
+      424.6745327035814,
+      46.69009057123452,
+      108.35912216327834
+    ],
+    [
+      254.41018175750014,
+      451.2310768403549,
+      117.86158352585839
+    ],
+    [
+      114.2662170224028,
+      426.61146410718374,
+      56.595684582596434
+    ],
+    [
+      45.35599341123403,
+      122.07073965488135,
+      41.77364067929154
+    ],
+    [
+      82.29229627514489,
+      20.12465302544969,
+      106.99862445823476
+    ],
+    [
+      108.11965025341969,
+      180.4337342040054,
+      119.14018483332362
+    ],
+    [
+      415.3628936002543,
+      398.53057877891587,
+      117.43552452707196
+    ],
+    [
+      63.98016792385186,
+      280.03611970296396,
+      53.68536997312134
+    ],
+    [
+      77.30687039594658,
+      320.1986510063755,
+      118.03814759583778
+    ],
+    [
+      150.63956638415854,
+      96.48653263151746,
+      69.64562096086709
+    ],
+    [
+      366.16734437925084,
+      366.86496292420037,
+      116.45712820209525
+    ]
+  ],
+  "best_evaluation": {
+    "coverage": 819.3531685302027,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.9498641364397611,
+    "power": 2305.0918928937094,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 588.8439792408317,
+    "covered_targets": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        14,
+        16
+      ]
+    ]
+  },
+  "final_positions": [
+    [
+      11.385001166430374,
+      186.52612409361961,
+      89.41647268104902
+    ],
+    [
+      213.48309031300698,
+      67.01636669148414,
+      54.63495459359007
+    ],
+    [
+      241.09191994497414,
+      148.67203113319593,
+      94.96601554299461
+    ],
+    [
+      274.7041916589865,
+      62.12328357628627,
+      83.96621948265059
+    ],
+    [
+      24.001677112841847,
+      384.3827630625883,
+      44.77807091462284
+    ],
+    [
+      123.70881897821484,
+      71.91904404066024,
+      38.20289991193237
+    ],
+    [
+      376.8865691096201,
+      302.70885846461266,
+      93.8862462580627
+    ],
+    [
+      217.5610672986516,
+      349.06755315382765,
+      36.35472962043963
+    ],
+    [
+      365.64189197079656,
+      53.605379010098154,
+      41.98554900639909
+    ],
+    [
+      203.2688633727658,
+      251.6578112227853,
+      85.49101278099683
+    ],
+    [
+      269.7258053995737,
+      170.74182379426222,
+      91.89299025273493
+    ],
+    [
+      63.47318037830085,
+      406.08110978933246,
+      89.10703913292751
+    ],
+    [
+      28.183570329625653,
+      62.0321499191413,
+      80.82928196492354
+    ],
+    [
+      40.835760998369,
+      48.72929370533308,
+      34.48024810909081
+    ],
+    [
+      75.52452850466834,
+      382.1782657660577,
+      86.43266400708424
+    ],
+    [
+      329.6443720811532,
+      318.1955243040112,
+      65.66672700874243
+    ]
+  ],
+  "final_evaluation": {
+    "coverage": 539.2116736863974,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.6251002015445167,
+    "power": 2156.0455606341206,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 323.6071176229853,
+    "covered_targets": [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        15,
+        16
+      ]
+    ]
+  },
+  "best_penalized_positions": [
+    [
+      24.51708770177169,
+      457.6753405570059,
+      71.3637427441623
+    ],
+    [
+      348.16952331759006,
+      184.32804472493365,
+      93.57706418860131
+    ],
+    [
+      290.17350251637055,
+      429.0136665192807,
+      32.27474752518167
+    ],
+    [
+      465.64533319282066,
+      281.33825309977925,
+      82.9491981643124
+    ],
+    [
+      235.8851148677441,
+      411.81241458350877,
+      104.02840166358469
+    ],
+    [
+      424.6745327035814,
+      46.69009057123452,
+      108.35912216327834
+    ],
+    [
+      254.41018175750014,
+      451.2310768403549,
+      117.86158352585839
+    ],
+    [
+      114.2662170224028,
+      426.61146410718374,
+      56.595684582596434
+    ],
+    [
+      45.35599341123403,
+      122.07073965488135,
+      41.77364067929154
+    ],
+    [
+      82.29229627514489,
+      20.12465302544969,
+      106.99862445823476
+    ],
+    [
+      108.11965025341969,
+      180.4337342040054,
+      119.14018483332362
+    ],
+    [
+      415.3628936002543,
+      398.53057877891587,
+      117.43552452707196
+    ],
+    [
+      63.98016792385186,
+      280.03611970296396,
+      53.68536997312134
+    ],
+    [
+      77.30687039594658,
+      320.1986510063755,
+      118.03814759583778
+    ],
+    [
+      150.63956638415854,
+      96.48653263151746,
+      69.64562096086709
+    ],
+    [
+      366.16734437925084,
+      366.86496292420037,
+      116.45712820209525
+    ]
+  ],
+  "best_penalized_evaluation": {
+    "coverage": 819.3531685302027,
+    "total_weight": 862.6003836730441,
+    "coverage_fraction": 0.9498641364397611,
+    "power": 2305.0918928937094,
+    "violations": {
+      "bounds": 0.0,
+      "collision": 0.0,
+      "connectivity": 0.0
+    },
+    "feasible": true,
+    "fitness": 588.8439792408317,
+    "covered_targets": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    "connected_uavs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "edges": [
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        14,
+        16
+      ]
+    ]
+  },
+  "trace": [
+    {
+      "phase": "initialization",
+      "evaluation": 1,
+      "temperature": null,
+      "current_fitness": 350.2505816973452,
+      "current_violation": 0.0,
+      "best_fitness": 350.2505816973452,
+      "best_coverage": 573.4896000904281,
+      "best_power": 2232.3901839308287,
+      "accepted_moves": 0,
+      "search_proposals": 0,
+      "feasible_search_proposals": 0,
+      "elapsed_seconds": 0.0008956999990914483
+    },
+    {
+      "phase": "search",
+      "evaluation": 2,
+      "temperature": null,
+      "current_fitness": 316.8232825788183,
+      "current_violation": 0.0,
+      "best_fitness": 350.2505816973452,
+      "best_coverage": 573.4896000904281,
+      "best_power": 2232.3901839308287,
+      "accepted_moves": 0,
+      "search_proposals": 1,
+      "feasible_search_proposals": 1,
+      "elapsed_seconds": 0.0014334999996208353
+    },
+    {
+      "phase": "search",
+      "evaluation": 25,
+      "temperature": null,
+      "current_fitness": 409.7594829154343,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 24,
+      "feasible_search_proposals": 17,
+      "elapsed_seconds": 0.014094499998464016
+    },
+    {
+      "phase": "search",
+      "evaluation": 50,
+      "temperature": null,
+      "current_fitness": 468.90134542584843,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 49,
+      "feasible_search_proposals": 37,
+      "elapsed_seconds": 0.026973099998940597
+    },
+    {
+      "phase": "search",
+      "evaluation": 75,
+      "temperature": null,
+      "current_fitness": -9538.030070928151,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 74,
+      "feasible_search_proposals": 54,
+      "elapsed_seconds": 0.04081959999894025
+    },
+    {
+      "phase": "search",
+      "evaluation": 100,
+      "temperature": null,
+      "current_fitness": 360.2293218107094,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 99,
+      "feasible_search_proposals": 71,
+      "elapsed_seconds": 0.05392859999847133
+    },
+    {
+      "phase": "search",
+      "evaluation": 125,
+      "temperature": null,
+      "current_fitness": 398.9339278705012,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 124,
+      "feasible_search_proposals": 93,
+      "elapsed_seconds": 0.06708869999965827
+    },
+    {
+      "phase": "search",
+      "evaluation": 150,
+      "temperature": null,
+      "current_fitness": 286.1739915072276,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 149,
+      "feasible_search_proposals": 112,
+      "elapsed_seconds": 0.08113899999989371
+    },
+    {
+      "phase": "search",
+      "evaluation": 175,
+      "temperature": null,
+      "current_fitness": 406.4575026751404,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 174,
+      "feasible_search_proposals": 130,
+      "elapsed_seconds": 0.09423609999976179
+    },
+    {
+      "phase": "search",
+      "evaluation": 200,
+      "temperature": null,
+      "current_fitness": 476.60878679988537,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 199,
+      "feasible_search_proposals": 149,
+      "elapsed_seconds": 0.10855739999897196
+    },
+    {
+      "phase": "search",
+      "evaluation": 225,
+      "temperature": null,
+      "current_fitness": 359.04200842559806,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 224,
+      "feasible_search_proposals": 170,
+      "elapsed_seconds": 0.12178419999872858
+    },
+    {
+      "phase": "search",
+      "evaluation": 250,
+      "temperature": null,
+      "current_fitness": -109581.322844293,
+      "current_violation": 10.982844799897787,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 249,
+      "feasible_search_proposals": 185,
+      "elapsed_seconds": 0.13485169999876234
+    },
+    {
+      "phase": "search",
+      "evaluation": 275,
+      "temperature": null,
+      "current_fitness": -19684.120874643297,
+      "current_violation": 2.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 274,
+      "feasible_search_proposals": 203,
+      "elapsed_seconds": 0.14783339999848977
+    },
+    {
+      "phase": "search",
+      "evaluation": 300,
+      "temperature": null,
+      "current_fitness": 416.5414964042741,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 299,
+      "feasible_search_proposals": 219,
+      "elapsed_seconds": 0.16045409999969706
+    },
+    {
+      "phase": "search",
+      "evaluation": 325,
+      "temperature": null,
+      "current_fitness": 324.14804174173054,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 324,
+      "feasible_search_proposals": 238,
+      "elapsed_seconds": 0.1744284999986121
+    },
+    {
+      "phase": "search",
+      "evaluation": 350,
+      "temperature": null,
+      "current_fitness": 236.6297546647064,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 349,
+      "feasible_search_proposals": 254,
+      "elapsed_seconds": 0.18752679999852262
+    },
+    {
+      "phase": "search",
+      "evaluation": 375,
+      "temperature": null,
+      "current_fitness": 391.46689150454637,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 374,
+      "feasible_search_proposals": 269,
+      "elapsed_seconds": 0.20100729999830946
+    },
+    {
+      "phase": "search",
+      "evaluation": 400,
+      "temperature": null,
+      "current_fitness": 404.2789515385456,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 399,
+      "feasible_search_proposals": 289,
+      "elapsed_seconds": 0.21493749999899592
+    },
+    {
+      "phase": "search",
+      "evaluation": 425,
+      "temperature": null,
+      "current_fitness": 290.7370186829739,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 424,
+      "feasible_search_proposals": 304,
+      "elapsed_seconds": 0.2283425999994506
+    },
+    {
+      "phase": "search",
+      "evaluation": 450,
+      "temperature": null,
+      "current_fitness": 311.745154573558,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 449,
+      "feasible_search_proposals": 326,
+      "elapsed_seconds": 0.243354599999293
+    },
+    {
+      "phase": "search",
+      "evaluation": 475,
+      "temperature": null,
+      "current_fitness": -39629.68140617369,
+      "current_violation": 4.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 474,
+      "feasible_search_proposals": 344,
+      "elapsed_seconds": 0.2570743999986007
+    },
+    {
+      "phase": "search",
+      "evaluation": 500,
+      "temperature": null,
+      "current_fitness": 418.28670586381224,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 499,
+      "feasible_search_proposals": 361,
+      "elapsed_seconds": 0.27008289999866975
+    },
+    {
+      "phase": "search",
+      "evaluation": 525,
+      "temperature": null,
+      "current_fitness": 414.8553321410973,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 524,
+      "feasible_search_proposals": 377,
+      "elapsed_seconds": 0.2828260999995109
+    },
+    {
+      "phase": "search",
+      "evaluation": 550,
+      "temperature": null,
+      "current_fitness": 327.56999917764927,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 549,
+      "feasible_search_proposals": 393,
+      "elapsed_seconds": 0.2954701999988174
+    },
+    {
+      "phase": "search",
+      "evaluation": 575,
+      "temperature": null,
+      "current_fitness": -69720.6989525797,
+      "current_violation": 7.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 574,
+      "feasible_search_proposals": 412,
+      "elapsed_seconds": 0.30901259999882313
+    },
+    {
+      "phase": "search",
+      "evaluation": 600,
+      "temperature": null,
+      "current_fitness": -9733.75335063384,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 599,
+      "feasible_search_proposals": 428,
+      "elapsed_seconds": 0.3221667999987403
+    },
+    {
+      "phase": "search",
+      "evaluation": 625,
+      "temperature": null,
+      "current_fitness": 434.5948776684867,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 624,
+      "feasible_search_proposals": 446,
+      "elapsed_seconds": 0.3350382999997237
+    },
+    {
+      "phase": "search",
+      "evaluation": 650,
+      "temperature": null,
+      "current_fitness": 369.78881347009184,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 649,
+      "feasible_search_proposals": 464,
+      "elapsed_seconds": 0.34771249999903375
+    },
+    {
+      "phase": "search",
+      "evaluation": 675,
+      "temperature": null,
+      "current_fitness": -86688.95237247559,
+      "current_violation": 8.685750151350629,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 674,
+      "feasible_search_proposals": 482,
+      "elapsed_seconds": 0.36041499999919324
+    },
+    {
+      "phase": "search",
+      "evaluation": 700,
+      "temperature": null,
+      "current_fitness": 289.33857678904616,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 699,
+      "feasible_search_proposals": 504,
+      "elapsed_seconds": 0.3744890999987547
+    },
+    {
+      "phase": "search",
+      "evaluation": 725,
+      "temperature": null,
+      "current_fitness": 198.91035430903554,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 724,
+      "feasible_search_proposals": 523,
+      "elapsed_seconds": 0.3874638999986928
+    },
+    {
+      "phase": "search",
+      "evaluation": 750,
+      "temperature": null,
+      "current_fitness": 245.255942586849,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 749,
+      "feasible_search_proposals": 537,
+      "elapsed_seconds": 0.40050389999851177
+    },
+    {
+      "phase": "search",
+      "evaluation": 775,
+      "temperature": null,
+      "current_fitness": 263.4940523277701,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 774,
+      "feasible_search_proposals": 553,
+      "elapsed_seconds": 0.4132291999994777
+    },
+    {
+      "phase": "search",
+      "evaluation": 800,
+      "temperature": null,
+      "current_fitness": -9675.618094783278,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 799,
+      "feasible_search_proposals": 570,
+      "elapsed_seconds": 0.4262721999984933
+    },
+    {
+      "phase": "search",
+      "evaluation": 825,
+      "temperature": null,
+      "current_fitness": 400.34957466227746,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 824,
+      "feasible_search_proposals": 588,
+      "elapsed_seconds": 0.439959599998474
+    },
+    {
+      "phase": "search",
+      "evaluation": 850,
+      "temperature": null,
+      "current_fitness": 402.02839667296837,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 849,
+      "feasible_search_proposals": 605,
+      "elapsed_seconds": 0.45376309999846853
+    },
+    {
+      "phase": "search",
+      "evaluation": 875,
+      "temperature": null,
+      "current_fitness": -29552.889100103872,
+      "current_violation": 3.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 874,
+      "feasible_search_proposals": 622,
+      "elapsed_seconds": 0.4679340999991837
+    },
+    {
+      "phase": "search",
+      "evaluation": 900,
+      "temperature": null,
+      "current_fitness": 344.0963678948409,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 899,
+      "feasible_search_proposals": 640,
+      "elapsed_seconds": 0.48358379999990575
+    },
+    {
+      "phase": "search",
+      "evaluation": 925,
+      "temperature": null,
+      "current_fitness": -29664.855933832514,
+      "current_violation": 3.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 924,
+      "feasible_search_proposals": 657,
+      "elapsed_seconds": 0.49847959999897284
+    },
+    {
+      "phase": "search",
+      "evaluation": 950,
+      "temperature": null,
+      "current_fitness": -39697.31449241729,
+      "current_violation": 4.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 949,
+      "feasible_search_proposals": 676,
+      "elapsed_seconds": 0.5135274999993271
+    },
+    {
+      "phase": "search",
+      "evaluation": 975,
+      "temperature": null,
+      "current_fitness": -19624.580381433705,
+      "current_violation": 2.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 974,
+      "feasible_search_proposals": 696,
+      "elapsed_seconds": 0.5269482999992761
+    },
+    {
+      "phase": "search",
+      "evaluation": 1000,
+      "temperature": null,
+      "current_fitness": -21363.99621784957,
+      "current_violation": 2.164207175646128,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 999,
+      "feasible_search_proposals": 714,
+      "elapsed_seconds": 0.5447611999989022
+    },
+    {
+      "phase": "search",
+      "evaluation": 1025,
+      "temperature": null,
+      "current_fitness": 351.11067741637646,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1024,
+      "feasible_search_proposals": 733,
+      "elapsed_seconds": 0.5630184999990888
+    },
+    {
+      "phase": "search",
+      "evaluation": 1050,
+      "temperature": null,
+      "current_fitness": 288.96391013506855,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1049,
+      "feasible_search_proposals": 749,
+      "elapsed_seconds": 0.5810815999993793
+    },
+    {
+      "phase": "search",
+      "evaluation": 1075,
+      "temperature": null,
+      "current_fitness": -29687.552999262003,
+      "current_violation": 3.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1074,
+      "feasible_search_proposals": 767,
+      "elapsed_seconds": 0.5979059999990568
+    },
+    {
+      "phase": "search",
+      "evaluation": 1100,
+      "temperature": null,
+      "current_fitness": 400.8941441056709,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1099,
+      "feasible_search_proposals": 786,
+      "elapsed_seconds": 0.6110214999989694
+    },
+    {
+      "phase": "search",
+      "evaluation": 1125,
+      "temperature": null,
+      "current_fitness": -9704.214130028535,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1124,
+      "feasible_search_proposals": 801,
+      "elapsed_seconds": 0.6252805999993143
+    },
+    {
+      "phase": "search",
+      "evaluation": 1150,
+      "temperature": null,
+      "current_fitness": 512.6092285409406,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1149,
+      "feasible_search_proposals": 824,
+      "elapsed_seconds": 0.6442965999995067
+    },
+    {
+      "phase": "search",
+      "evaluation": 1175,
+      "temperature": null,
+      "current_fitness": 451.5805851856509,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1174,
+      "feasible_search_proposals": 843,
+      "elapsed_seconds": 0.658072499998525
+    },
+    {
+      "phase": "search",
+      "evaluation": 1200,
+      "temperature": null,
+      "current_fitness": 392.3335103466079,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1199,
+      "feasible_search_proposals": 858,
+      "elapsed_seconds": 0.6733004999987315
+    },
+    {
+      "phase": "search",
+      "evaluation": 1225,
+      "temperature": null,
+      "current_fitness": 222.69558869613564,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1224,
+      "feasible_search_proposals": 876,
+      "elapsed_seconds": 0.6872160999992047
+    },
+    {
+      "phase": "search",
+      "evaluation": 1250,
+      "temperature": null,
+      "current_fitness": 212.30749996076545,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1249,
+      "feasible_search_proposals": 895,
+      "elapsed_seconds": 0.7031895999989501
+    },
+    {
+      "phase": "search",
+      "evaluation": 1275,
+      "temperature": null,
+      "current_fitness": 426.57086054061233,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1274,
+      "feasible_search_proposals": 913,
+      "elapsed_seconds": 0.7202617999992071
+    },
+    {
+      "phase": "search",
+      "evaluation": 1300,
+      "temperature": null,
+      "current_fitness": -19634.824377193007,
+      "current_violation": 2.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1299,
+      "feasible_search_proposals": 931,
+      "elapsed_seconds": 0.7390630999998393
+    },
+    {
+      "phase": "search",
+      "evaluation": 1325,
+      "temperature": null,
+      "current_fitness": 276.7378985396882,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1324,
+      "feasible_search_proposals": 949,
+      "elapsed_seconds": 0.7533487000000605
+    },
+    {
+      "phase": "search",
+      "evaluation": 1350,
+      "temperature": null,
+      "current_fitness": 255.14659856928773,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1349,
+      "feasible_search_proposals": 965,
+      "elapsed_seconds": 0.7717442999983177
+    },
+    {
+      "phase": "search",
+      "evaluation": 1375,
+      "temperature": null,
+      "current_fitness": -9639.122500653668,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1374,
+      "feasible_search_proposals": 983,
+      "elapsed_seconds": 0.7859966999985772
+    },
+    {
+      "phase": "search",
+      "evaluation": 1400,
+      "temperature": null,
+      "current_fitness": 446.01912713724346,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1399,
+      "feasible_search_proposals": 999,
+      "elapsed_seconds": 0.8009827999994741
+    },
+    {
+      "phase": "search",
+      "evaluation": 1425,
+      "temperature": null,
+      "current_fitness": 320.6293700198378,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1424,
+      "feasible_search_proposals": 1017,
+      "elapsed_seconds": 0.8145251999994798
+    },
+    {
+      "phase": "search",
+      "evaluation": 1450,
+      "temperature": null,
+      "current_fitness": 270.155992676751,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1449,
+      "feasible_search_proposals": 1030,
+      "elapsed_seconds": 0.8282050999987405
+    },
+    {
+      "phase": "search",
+      "evaluation": 1475,
+      "temperature": null,
+      "current_fitness": 279.4524688521735,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1474,
+      "feasible_search_proposals": 1047,
+      "elapsed_seconds": 0.8426532999983465
+    },
+    {
+      "phase": "search",
+      "evaluation": 1500,
+      "temperature": null,
+      "current_fitness": -19602.12775856144,
+      "current_violation": 2.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1499,
+      "feasible_search_proposals": 1068,
+      "elapsed_seconds": 0.8580430999991222
+    },
+    {
+      "phase": "search",
+      "evaluation": 1525,
+      "temperature": null,
+      "current_fitness": 383.1432233960597,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1524,
+      "feasible_search_proposals": 1087,
+      "elapsed_seconds": 0.8728673999994498
+    },
+    {
+      "phase": "search",
+      "evaluation": 1550,
+      "temperature": null,
+      "current_fitness": 290.73146792487546,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1549,
+      "feasible_search_proposals": 1107,
+      "elapsed_seconds": 0.8875814999992144
+    },
+    {
+      "phase": "search",
+      "evaluation": 1575,
+      "temperature": null,
+      "current_fitness": -85007.57230225284,
+      "current_violation": 8.532414411053823,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1574,
+      "feasible_search_proposals": 1125,
+      "elapsed_seconds": 0.9009378999999171
+    },
+    {
+      "phase": "search",
+      "evaluation": 1600,
+      "temperature": null,
+      "current_fitness": 383.5614304814929,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1599,
+      "feasible_search_proposals": 1146,
+      "elapsed_seconds": 0.9147796999986895
+    },
+    {
+      "phase": "search",
+      "evaluation": 1625,
+      "temperature": null,
+      "current_fitness": -8022.429826432055,
+      "current_violation": 0.8332940484611022,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1624,
+      "feasible_search_proposals": 1165,
+      "elapsed_seconds": 0.93518849999964
+    },
+    {
+      "phase": "search",
+      "evaluation": 1650,
+      "temperature": null,
+      "current_fitness": 360.811668046427,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1649,
+      "feasible_search_proposals": 1183,
+      "elapsed_seconds": 0.9574519999987388
+    },
+    {
+      "phase": "search",
+      "evaluation": 1675,
+      "temperature": null,
+      "current_fitness": 531.538491917197,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1674,
+      "feasible_search_proposals": 1199,
+      "elapsed_seconds": 0.9766877999991266
+    },
+    {
+      "phase": "search",
+      "evaluation": 1700,
+      "temperature": null,
+      "current_fitness": -9643.542083833483,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1699,
+      "feasible_search_proposals": 1218,
+      "elapsed_seconds": 1.0009445999985473
+    },
+    {
+      "phase": "search",
+      "evaluation": 1725,
+      "temperature": null,
+      "current_fitness": 257.1648697774677,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1724,
+      "feasible_search_proposals": 1233,
+      "elapsed_seconds": 1.0195115999995323
+    },
+    {
+      "phase": "search",
+      "evaluation": 1750,
+      "temperature": null,
+      "current_fitness": 286.051058556318,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1749,
+      "feasible_search_proposals": 1254,
+      "elapsed_seconds": 1.0382775999987643
+    },
+    {
+      "phase": "search",
+      "evaluation": 1775,
+      "temperature": null,
+      "current_fitness": -35806.598735115535,
+      "current_violation": 3.62268495675578,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1774,
+      "feasible_search_proposals": 1273,
+      "elapsed_seconds": 1.05546829999912
+    },
+    {
+      "phase": "search",
+      "evaluation": 1800,
+      "temperature": null,
+      "current_fitness": -36453.23371654986,
+      "current_violation": 3.6609749958607978,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1799,
+      "feasible_search_proposals": 1292,
+      "elapsed_seconds": 1.0739276999993308
+    },
+    {
+      "phase": "search",
+      "evaluation": 1825,
+      "temperature": null,
+      "current_fitness": -59608.06329487738,
+      "current_violation": 6.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1824,
+      "feasible_search_proposals": 1309,
+      "elapsed_seconds": 1.0948409999982687
+    },
+    {
+      "phase": "search",
+      "evaluation": 1850,
+      "temperature": null,
+      "current_fitness": 345.40370986292135,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1849,
+      "feasible_search_proposals": 1328,
+      "elapsed_seconds": 1.1148951999985002
+    },
+    {
+      "phase": "search",
+      "evaluation": 1875,
+      "temperature": null,
+      "current_fitness": 290.58685842195075,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1874,
+      "feasible_search_proposals": 1348,
+      "elapsed_seconds": 1.13588449999952
+    },
+    {
+      "phase": "search",
+      "evaluation": 1900,
+      "temperature": null,
+      "current_fitness": 242.17796747518747,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1899,
+      "feasible_search_proposals": 1366,
+      "elapsed_seconds": 1.1615946999991138
+    },
+    {
+      "phase": "search",
+      "evaluation": 1925,
+      "temperature": null,
+      "current_fitness": 340.6804550102032,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1924,
+      "feasible_search_proposals": 1388,
+      "elapsed_seconds": 1.1779201999997895
+    },
+    {
+      "phase": "search",
+      "evaluation": 1950,
+      "temperature": null,
+      "current_fitness": 518.8465984738366,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1949,
+      "feasible_search_proposals": 1405,
+      "elapsed_seconds": 1.1933419999986654
+    },
+    {
+      "phase": "search",
+      "evaluation": 1975,
+      "temperature": null,
+      "current_fitness": -9660.691665864695,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1974,
+      "feasible_search_proposals": 1423,
+      "elapsed_seconds": 1.2072550999982923
+    },
+    {
+      "phase": "search",
+      "evaluation": 2000,
+      "temperature": null,
+      "current_fitness": -9754.125400022349,
+      "current_violation": 1.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 1999,
+      "feasible_search_proposals": 1433,
+      "elapsed_seconds": 1.2226500999986456
+    },
+    {
+      "phase": "search",
+      "evaluation": 2025,
+      "temperature": null,
+      "current_fitness": 192.50629803007632,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2024,
+      "feasible_search_proposals": 1447,
+      "elapsed_seconds": 1.246533499999714
+    },
+    {
+      "phase": "search",
+      "evaluation": 2050,
+      "temperature": null,
+      "current_fitness": 447.06756306842146,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2049,
+      "feasible_search_proposals": 1464,
+      "elapsed_seconds": 1.2607785999989574
+    },
+    {
+      "phase": "search",
+      "evaluation": 2075,
+      "temperature": null,
+      "current_fitness": 359.2232371661356,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2074,
+      "feasible_search_proposals": 1482,
+      "elapsed_seconds": 1.2791077999991103
+    },
+    {
+      "phase": "search",
+      "evaluation": 2100,
+      "temperature": null,
+      "current_fitness": 432.54178038229537,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2099,
+      "feasible_search_proposals": 1498,
+      "elapsed_seconds": 1.2926281999989442
+    },
+    {
+      "phase": "search",
+      "evaluation": 2125,
+      "temperature": null,
+      "current_fitness": 290.50210646779374,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2124,
+      "feasible_search_proposals": 1517,
+      "elapsed_seconds": 1.3114131999991514
+    },
+    {
+      "phase": "search",
+      "evaluation": 2150,
+      "temperature": null,
+      "current_fitness": 374.4383849384069,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2149,
+      "feasible_search_proposals": 1537,
+      "elapsed_seconds": 1.3282845999983692
+    },
+    {
+      "phase": "search",
+      "evaluation": 2175,
+      "temperature": null,
+      "current_fitness": 298.0307201242554,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2174,
+      "feasible_search_proposals": 1556,
+      "elapsed_seconds": 1.3484704999991663
+    },
+    {
+      "phase": "search",
+      "evaluation": 2200,
+      "temperature": null,
+      "current_fitness": 390.7334933998569,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2199,
+      "feasible_search_proposals": 1574,
+      "elapsed_seconds": 1.3664923999986058
+    },
+    {
+      "phase": "search",
+      "evaluation": 2225,
+      "temperature": null,
+      "current_fitness": 118.03009076393423,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2224,
+      "feasible_search_proposals": 1593,
+      "elapsed_seconds": 1.3841568999996525
+    },
+    {
+      "phase": "search",
+      "evaluation": 2250,
+      "temperature": null,
+      "current_fitness": -20565.779450141457,
+      "current_violation": 2.107710655168489,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2249,
+      "feasible_search_proposals": 1609,
+      "elapsed_seconds": 1.3974114999982703
+    },
+    {
+      "phase": "search",
+      "evaluation": 2275,
+      "temperature": null,
+      "current_fitness": 178.62526516797848,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2274,
+      "feasible_search_proposals": 1625,
+      "elapsed_seconds": 1.4104588999998668
+    },
+    {
+      "phase": "search",
+      "evaluation": 2300,
+      "temperature": null,
+      "current_fitness": 396.90917919471696,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2299,
+      "feasible_search_proposals": 1646,
+      "elapsed_seconds": 1.4237036999984412
+    },
+    {
+      "phase": "search",
+      "evaluation": 2325,
+      "temperature": null,
+      "current_fitness": 242.53143040584263,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2324,
+      "feasible_search_proposals": 1664,
+      "elapsed_seconds": 1.4374647999993613
+    },
+    {
+      "phase": "search",
+      "evaluation": 2350,
+      "temperature": null,
+      "current_fitness": -104221.00445519497,
+      "current_violation": 10.449377462747506,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2349,
+      "feasible_search_proposals": 1683,
+      "elapsed_seconds": 1.4505299999982526
+    },
+    {
+      "phase": "search",
+      "evaluation": 2375,
+      "temperature": null,
+      "current_fitness": 378.0950446662972,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2374,
+      "feasible_search_proposals": 1700,
+      "elapsed_seconds": 1.4648769999985234
+    },
+    {
+      "phase": "search",
+      "evaluation": 2400,
+      "temperature": null,
+      "current_fitness": 433.2282065743267,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2399,
+      "feasible_search_proposals": 1714,
+      "elapsed_seconds": 1.479143299999123
+    },
+    {
+      "phase": "search",
+      "evaluation": 2425,
+      "temperature": null,
+      "current_fitness": 356.87973674478957,
+      "current_violation": 0.0,
+      "best_fitness": 549.7151199025873,
+      "best_coverage": 780.3732604383777,
+      "best_power": 2306.5814053579043,
+      "accepted_moves": 0,
+      "search_proposals": 2424,
+      "feasible_search_proposals": 1737,
+      "elapsed_seconds": 1.4926846999987902
+    },
+    {
+      "phase": "search",
+      "evaluation": 2450,
+      "temperature": null,
+      "current_fitness": 427.36030631287844,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2449,
+      "feasible_search_proposals": 1752,
+      "elapsed_seconds": 1.5073083999996015
+    },
+    {
+      "phase": "search",
+      "evaluation": 2475,
+      "temperature": null,
+      "current_fitness": -9542.342682654242,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2474,
+      "feasible_search_proposals": 1769,
+      "elapsed_seconds": 1.5210751999984495
+    },
+    {
+      "phase": "search",
+      "evaluation": 2500,
+      "temperature": null,
+      "current_fitness": 187.40872195071793,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2499,
+      "feasible_search_proposals": 1785,
+      "elapsed_seconds": 1.5359257999989495
+    },
+    {
+      "phase": "search",
+      "evaluation": 2525,
+      "temperature": null,
+      "current_fitness": -9682.967036276817,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2524,
+      "feasible_search_proposals": 1805,
+      "elapsed_seconds": 1.5502704999998969
+    },
+    {
+      "phase": "search",
+      "evaluation": 2550,
+      "temperature": null,
+      "current_fitness": 367.47967057374774,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2549,
+      "feasible_search_proposals": 1824,
+      "elapsed_seconds": 1.5656111999996938
+    },
+    {
+      "phase": "search",
+      "evaluation": 2575,
+      "temperature": null,
+      "current_fitness": 221.34365170003522,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2574,
+      "feasible_search_proposals": 1847,
+      "elapsed_seconds": 1.5795069999985571
+    },
+    {
+      "phase": "search",
+      "evaluation": 2600,
+      "temperature": null,
+      "current_fitness": 423.559731403553,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2599,
+      "feasible_search_proposals": 1868,
+      "elapsed_seconds": 1.593373599998813
+    },
+    {
+      "phase": "search",
+      "evaluation": 2625,
+      "temperature": null,
+      "current_fitness": 428.20437710101976,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2624,
+      "feasible_search_proposals": 1884,
+      "elapsed_seconds": 1.607539699998597
+    },
+    {
+      "phase": "search",
+      "evaluation": 2650,
+      "temperature": null,
+      "current_fitness": 445.8502888386876,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2649,
+      "feasible_search_proposals": 1905,
+      "elapsed_seconds": 1.6212501999998494
+    },
+    {
+      "phase": "search",
+      "evaluation": 2675,
+      "temperature": null,
+      "current_fitness": -9723.00444145135,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2674,
+      "feasible_search_proposals": 1921,
+      "elapsed_seconds": 1.6400101999988692
+    },
+    {
+      "phase": "search",
+      "evaluation": 2700,
+      "temperature": null,
+      "current_fitness": 336.4946666461183,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2699,
+      "feasible_search_proposals": 1937,
+      "elapsed_seconds": 1.656986499998311
+    },
+    {
+      "phase": "search",
+      "evaluation": 2725,
+      "temperature": null,
+      "current_fitness": -124553.33914617325,
+      "current_violation": 12.49453880711328,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2724,
+      "feasible_search_proposals": 1952,
+      "elapsed_seconds": 1.6749353999985033
+    },
+    {
+      "phase": "search",
+      "evaluation": 2750,
+      "temperature": null,
+      "current_fitness": 303.166854116035,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2749,
+      "feasible_search_proposals": 1969,
+      "elapsed_seconds": 1.6907396999995399
+    },
+    {
+      "phase": "search",
+      "evaluation": 2775,
+      "temperature": null,
+      "current_fitness": 469.0262906498109,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2774,
+      "feasible_search_proposals": 1984,
+      "elapsed_seconds": 1.7109530999987328
+    },
+    {
+      "phase": "search",
+      "evaluation": 2800,
+      "temperature": null,
+      "current_fitness": 392.41755362772517,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2799,
+      "feasible_search_proposals": 2000,
+      "elapsed_seconds": 1.7289152999983344
+    },
+    {
+      "phase": "search",
+      "evaluation": 2825,
+      "temperature": null,
+      "current_fitness": 268.7095283387175,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2824,
+      "feasible_search_proposals": 2019,
+      "elapsed_seconds": 1.7426052999999229
+    },
+    {
+      "phase": "search",
+      "evaluation": 2850,
+      "temperature": null,
+      "current_fitness": -9669.522048481633,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2849,
+      "feasible_search_proposals": 2038,
+      "elapsed_seconds": 1.7591716999995697
+    },
+    {
+      "phase": "search",
+      "evaluation": 2875,
+      "temperature": null,
+      "current_fitness": -29555.994581542127,
+      "current_violation": 3.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2874,
+      "feasible_search_proposals": 2054,
+      "elapsed_seconds": 1.7782877999998163
+    },
+    {
+      "phase": "search",
+      "evaluation": 2900,
+      "temperature": null,
+      "current_fitness": -19633.88064831246,
+      "current_violation": 2.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2899,
+      "feasible_search_proposals": 2073,
+      "elapsed_seconds": 1.7974896999985503
+    },
+    {
+      "phase": "search",
+      "evaluation": 2925,
+      "temperature": null,
+      "current_fitness": 348.56261240728566,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2924,
+      "feasible_search_proposals": 2089,
+      "elapsed_seconds": 1.814949899999192
+    },
+    {
+      "phase": "search",
+      "evaluation": 2950,
+      "temperature": null,
+      "current_fitness": -9666.734351869289,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2949,
+      "feasible_search_proposals": 2104,
+      "elapsed_seconds": 1.8350977999998577
+    },
+    {
+      "phase": "search",
+      "evaluation": 2975,
+      "temperature": null,
+      "current_fitness": 463.51459822460924,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2974,
+      "feasible_search_proposals": 2122,
+      "elapsed_seconds": 1.8519564999987779
+    },
+    {
+      "phase": "search",
+      "evaluation": 3000,
+      "temperature": null,
+      "current_fitness": -9692.396890443672,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 2999,
+      "feasible_search_proposals": 2135,
+      "elapsed_seconds": 1.8689368999985163
+    },
+    {
+      "phase": "search",
+      "evaluation": 3025,
+      "temperature": null,
+      "current_fitness": 414.1643460320795,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3024,
+      "feasible_search_proposals": 2153,
+      "elapsed_seconds": 1.8870327999993606
+    },
+    {
+      "phase": "search",
+      "evaluation": 3050,
+      "temperature": null,
+      "current_fitness": -29636.04560789943,
+      "current_violation": 3.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3049,
+      "feasible_search_proposals": 2169,
+      "elapsed_seconds": 1.907212799998888
+    },
+    {
+      "phase": "search",
+      "evaluation": 3075,
+      "temperature": null,
+      "current_fitness": 350.2675291593141,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3074,
+      "feasible_search_proposals": 2190,
+      "elapsed_seconds": 1.9277260999988357
+    },
+    {
+      "phase": "search",
+      "evaluation": 3100,
+      "temperature": null,
+      "current_fitness": -9723.32802730479,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3099,
+      "feasible_search_proposals": 2208,
+      "elapsed_seconds": 1.9414129999986471
+    },
+    {
+      "phase": "search",
+      "evaluation": 3125,
+      "temperature": null,
+      "current_fitness": 354.6751849252145,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3124,
+      "feasible_search_proposals": 2227,
+      "elapsed_seconds": 1.9593968999997742
+    },
+    {
+      "phase": "search",
+      "evaluation": 3150,
+      "temperature": null,
+      "current_fitness": 453.5836563046417,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3149,
+      "feasible_search_proposals": 2244,
+      "elapsed_seconds": 1.974737799999275
+    },
+    {
+      "phase": "search",
+      "evaluation": 3175,
+      "temperature": null,
+      "current_fitness": 363.91977410323375,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3174,
+      "feasible_search_proposals": 2257,
+      "elapsed_seconds": 1.9947976999992534
+    },
+    {
+      "phase": "search",
+      "evaluation": 3200,
+      "temperature": null,
+      "current_fitness": 346.36247408196505,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3199,
+      "feasible_search_proposals": 2277,
+      "elapsed_seconds": 2.0161726999995153
+    },
+    {
+      "phase": "search",
+      "evaluation": 3225,
+      "temperature": null,
+      "current_fitness": -39767.19506937577,
+      "current_violation": 4.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3224,
+      "feasible_search_proposals": 2291,
+      "elapsed_seconds": 2.037894099999903
+    },
+    {
+      "phase": "search",
+      "evaluation": 3250,
+      "temperature": null,
+      "current_fitness": -9734.581453537,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3249,
+      "feasible_search_proposals": 2312,
+      "elapsed_seconds": 2.0560924999990675
+    },
+    {
+      "phase": "search",
+      "evaluation": 3275,
+      "temperature": null,
+      "current_fitness": -9065.047748613848,
+      "current_violation": 0.9484457741849202,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3274,
+      "feasible_search_proposals": 2327,
+      "elapsed_seconds": 2.0758972999992693
+    },
+    {
+      "phase": "search",
+      "evaluation": 3300,
+      "temperature": null,
+      "current_fitness": 408.36127363074854,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3299,
+      "feasible_search_proposals": 2347,
+      "elapsed_seconds": 2.0953999999983353
+    },
+    {
+      "phase": "search",
+      "evaluation": 3325,
+      "temperature": null,
+      "current_fitness": 376.5221197454234,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3324,
+      "feasible_search_proposals": 2363,
+      "elapsed_seconds": 2.114698599998519
+    },
+    {
+      "phase": "search",
+      "evaluation": 3350,
+      "temperature": null,
+      "current_fitness": 371.49426361819724,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3349,
+      "feasible_search_proposals": 2378,
+      "elapsed_seconds": 2.1329998999990494
+    },
+    {
+      "phase": "search",
+      "evaluation": 3375,
+      "temperature": null,
+      "current_fitness": 397.0134927023323,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3374,
+      "feasible_search_proposals": 2400,
+      "elapsed_seconds": 2.151435899999342
+    },
+    {
+      "phase": "search",
+      "evaluation": 3400,
+      "temperature": null,
+      "current_fitness": 350.48830975939495,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3399,
+      "feasible_search_proposals": 2420,
+      "elapsed_seconds": 2.169810299999881
+    },
+    {
+      "phase": "search",
+      "evaluation": 3425,
+      "temperature": null,
+      "current_fitness": 349.287465058629,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3424,
+      "feasible_search_proposals": 2440,
+      "elapsed_seconds": 2.1876823999991757
+    },
+    {
+      "phase": "search",
+      "evaluation": 3450,
+      "temperature": null,
+      "current_fitness": -9761.967032511415,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3449,
+      "feasible_search_proposals": 2458,
+      "elapsed_seconds": 2.2013290999984747
+    },
+    {
+      "phase": "search",
+      "evaluation": 3475,
+      "temperature": null,
+      "current_fitness": 404.2864031422574,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3474,
+      "feasible_search_proposals": 2478,
+      "elapsed_seconds": 2.2150667999994766
+    },
+    {
+      "phase": "search",
+      "evaluation": 3500,
+      "temperature": null,
+      "current_fitness": 360.89040589535085,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3499,
+      "feasible_search_proposals": 2499,
+      "elapsed_seconds": 2.229180099999212
+    },
+    {
+      "phase": "search",
+      "evaluation": 3525,
+      "temperature": null,
+      "current_fitness": -39618.48524683253,
+      "current_violation": 4.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3524,
+      "feasible_search_proposals": 2517,
+      "elapsed_seconds": 2.2430130999982794
+    },
+    {
+      "phase": "search",
+      "evaluation": 3550,
+      "temperature": null,
+      "current_fitness": 276.9962756956496,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3549,
+      "feasible_search_proposals": 2532,
+      "elapsed_seconds": 2.256888899999467
+    },
+    {
+      "phase": "search",
+      "evaluation": 3575,
+      "temperature": null,
+      "current_fitness": -9677.864524158664,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3574,
+      "feasible_search_proposals": 2552,
+      "elapsed_seconds": 2.271134399999937
+    },
+    {
+      "phase": "search",
+      "evaluation": 3600,
+      "temperature": null,
+      "current_fitness": 299.9253091577141,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3599,
+      "feasible_search_proposals": 2567,
+      "elapsed_seconds": 2.2846504999997705
+    },
+    {
+      "phase": "search",
+      "evaluation": 3625,
+      "temperature": null,
+      "current_fitness": 357.75145039991367,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3624,
+      "feasible_search_proposals": 2587,
+      "elapsed_seconds": 2.297691699999632
+    },
+    {
+      "phase": "search",
+      "evaluation": 3650,
+      "temperature": null,
+      "current_fitness": 349.76235534639625,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3649,
+      "feasible_search_proposals": 2605,
+      "elapsed_seconds": 2.31191249999938
+    },
+    {
+      "phase": "search",
+      "evaluation": 3675,
+      "temperature": null,
+      "current_fitness": 409.1518525003619,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3674,
+      "feasible_search_proposals": 2622,
+      "elapsed_seconds": 2.3249104999995325
+    },
+    {
+      "phase": "search",
+      "evaluation": 3700,
+      "temperature": null,
+      "current_fitness": -25243.580083032426,
+      "current_violation": 2.5657603841057703,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3699,
+      "feasible_search_proposals": 2643,
+      "elapsed_seconds": 2.3376740999992762
+    },
+    {
+      "phase": "search",
+      "evaluation": 3725,
+      "temperature": null,
+      "current_fitness": -39618.91823699593,
+      "current_violation": 4.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3724,
+      "feasible_search_proposals": 2658,
+      "elapsed_seconds": 2.350391399999353
+    },
+    {
+      "phase": "search",
+      "evaluation": 3750,
+      "temperature": null,
+      "current_fitness": -29690.248085973355,
+      "current_violation": 3.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3749,
+      "feasible_search_proposals": 2677,
+      "elapsed_seconds": 2.363179999998465
+    },
+    {
+      "phase": "search",
+      "evaluation": 3775,
+      "temperature": null,
+      "current_fitness": 415.90083175147305,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3774,
+      "feasible_search_proposals": 2695,
+      "elapsed_seconds": 2.376470799999879
+    },
+    {
+      "phase": "search",
+      "evaluation": 3800,
+      "temperature": null,
+      "current_fitness": -125252.99577358417,
+      "current_violation": 12.556267376794946,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3799,
+      "feasible_search_proposals": 2712,
+      "elapsed_seconds": 2.389252099999794
+    },
+    {
+      "phase": "search",
+      "evaluation": 3825,
+      "temperature": null,
+      "current_fitness": 333.8149643668911,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3824,
+      "feasible_search_proposals": 2726,
+      "elapsed_seconds": 2.402447199998278
+    },
+    {
+      "phase": "search",
+      "evaluation": 3850,
+      "temperature": null,
+      "current_fitness": 301.95999033543364,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3849,
+      "feasible_search_proposals": 2747,
+      "elapsed_seconds": 2.4143726999991486
+    },
+    {
+      "phase": "search",
+      "evaluation": 3875,
+      "temperature": null,
+      "current_fitness": 347.59278722550476,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3874,
+      "feasible_search_proposals": 2765,
+      "elapsed_seconds": 2.4265908999987005
+    },
+    {
+      "phase": "search",
+      "evaluation": 3900,
+      "temperature": null,
+      "current_fitness": 453.71152882876544,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3899,
+      "feasible_search_proposals": 2786,
+      "elapsed_seconds": 2.439219799998682
+    },
+    {
+      "phase": "search",
+      "evaluation": 3925,
+      "temperature": null,
+      "current_fitness": 360.1845329002863,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3924,
+      "feasible_search_proposals": 2808,
+      "elapsed_seconds": 2.450986299998476
+    },
+    {
+      "phase": "search",
+      "evaluation": 3950,
+      "temperature": null,
+      "current_fitness": 395.00885898946365,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3949,
+      "feasible_search_proposals": 2824,
+      "elapsed_seconds": 2.463748399999531
+    },
+    {
+      "phase": "search",
+      "evaluation": 3975,
+      "temperature": null,
+      "current_fitness": -19678.249423783513,
+      "current_violation": 2.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3974,
+      "feasible_search_proposals": 2842,
+      "elapsed_seconds": 2.478647899999487
+    },
+    {
+      "phase": "search",
+      "evaluation": 4000,
+      "temperature": null,
+      "current_fitness": 373.786258571039,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 3999,
+      "feasible_search_proposals": 2861,
+      "elapsed_seconds": 2.4921146999986377
+    },
+    {
+      "phase": "search",
+      "evaluation": 4025,
+      "temperature": null,
+      "current_fitness": 377.35505925390237,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4024,
+      "feasible_search_proposals": 2877,
+      "elapsed_seconds": 2.507008399999904
+    },
+    {
+      "phase": "search",
+      "evaluation": 4050,
+      "temperature": null,
+      "current_fitness": 331.8295974088725,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4049,
+      "feasible_search_proposals": 2896,
+      "elapsed_seconds": 2.521086499999001
+    },
+    {
+      "phase": "search",
+      "evaluation": 4075,
+      "temperature": null,
+      "current_fitness": 387.50816865231866,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4074,
+      "feasible_search_proposals": 2919,
+      "elapsed_seconds": 2.534888199999841
+    },
+    {
+      "phase": "search",
+      "evaluation": 4100,
+      "temperature": null,
+      "current_fitness": -19517.116951985718,
+      "current_violation": 2.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4099,
+      "feasible_search_proposals": 2936,
+      "elapsed_seconds": 2.548316499998691
+    },
+    {
+      "phase": "search",
+      "evaluation": 4125,
+      "temperature": null,
+      "current_fitness": -9630.710224154855,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4124,
+      "feasible_search_proposals": 2950,
+      "elapsed_seconds": 2.5625342999992426
+    },
+    {
+      "phase": "search",
+      "evaluation": 4150,
+      "temperature": null,
+      "current_fitness": 259.91413705499974,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4149,
+      "feasible_search_proposals": 2971,
+      "elapsed_seconds": 2.5766434999986814
+    },
+    {
+      "phase": "search",
+      "evaluation": 4175,
+      "temperature": null,
+      "current_fitness": -90820.38283095839,
+      "current_violation": 9.118069624602738,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4174,
+      "feasible_search_proposals": 2987,
+      "elapsed_seconds": 2.589944599998489
+    },
+    {
+      "phase": "search",
+      "evaluation": 4200,
+      "temperature": null,
+      "current_fitness": 467.2226855934474,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4199,
+      "feasible_search_proposals": 3007,
+      "elapsed_seconds": 2.605443299999024
+    },
+    {
+      "phase": "search",
+      "evaluation": 4225,
+      "temperature": null,
+      "current_fitness": 366.361059928043,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4224,
+      "feasible_search_proposals": 3027,
+      "elapsed_seconds": 2.6231099999986327
+    },
+    {
+      "phase": "search",
+      "evaluation": 4250,
+      "temperature": null,
+      "current_fitness": 317.19012521396746,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4249,
+      "feasible_search_proposals": 3041,
+      "elapsed_seconds": 2.638326699998288
+    },
+    {
+      "phase": "search",
+      "evaluation": 4275,
+      "temperature": null,
+      "current_fitness": 419.7202656801299,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4274,
+      "feasible_search_proposals": 3060,
+      "elapsed_seconds": 2.6569499999986874
+    },
+    {
+      "phase": "search",
+      "evaluation": 4300,
+      "temperature": null,
+      "current_fitness": 227.61771421736097,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4299,
+      "feasible_search_proposals": 3078,
+      "elapsed_seconds": 2.673243100000036
+    },
+    {
+      "phase": "search",
+      "evaluation": 4325,
+      "temperature": null,
+      "current_fitness": 502.7021683629413,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4324,
+      "feasible_search_proposals": 3097,
+      "elapsed_seconds": 2.6869294999996782
+    },
+    {
+      "phase": "search",
+      "evaluation": 4350,
+      "temperature": null,
+      "current_fitness": -29676.17343968927,
+      "current_violation": 3.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4349,
+      "feasible_search_proposals": 3110,
+      "elapsed_seconds": 2.7025992999988375
+    },
+    {
+      "phase": "search",
+      "evaluation": 4375,
+      "temperature": null,
+      "current_fitness": 394.04416243311715,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4374,
+      "feasible_search_proposals": 3130,
+      "elapsed_seconds": 2.716860099999394
+    },
+    {
+      "phase": "search",
+      "evaluation": 4400,
+      "temperature": null,
+      "current_fitness": -47570.46893909144,
+      "current_violation": 4.781517587657833,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4399,
+      "feasible_search_proposals": 3146,
+      "elapsed_seconds": 2.7302024999989953
+    },
+    {
+      "phase": "search",
+      "evaluation": 4425,
+      "temperature": null,
+      "current_fitness": 242.58348135503385,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4424,
+      "feasible_search_proposals": 3166,
+      "elapsed_seconds": 2.743923199999699
+    },
+    {
+      "phase": "search",
+      "evaluation": 4450,
+      "temperature": null,
+      "current_fitness": 372.14813244360255,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4449,
+      "feasible_search_proposals": 3181,
+      "elapsed_seconds": 2.756669899999906
+    },
+    {
+      "phase": "search",
+      "evaluation": 4475,
+      "temperature": null,
+      "current_fitness": 280.41873845091516,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4474,
+      "feasible_search_proposals": 3199,
+      "elapsed_seconds": 2.770030499999848
+    },
+    {
+      "phase": "search",
+      "evaluation": 4500,
+      "temperature": null,
+      "current_fitness": -10124.254620958887,
+      "current_violation": 1.0440884713312855,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4499,
+      "feasible_search_proposals": 3215,
+      "elapsed_seconds": 2.7828281999991304
+    },
+    {
+      "phase": "search",
+      "evaluation": 4525,
+      "temperature": null,
+      "current_fitness": 256.2975145127285,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4524,
+      "feasible_search_proposals": 3235,
+      "elapsed_seconds": 2.7956100999999762
+    },
+    {
+      "phase": "search",
+      "evaluation": 4550,
+      "temperature": null,
+      "current_fitness": -63412.76069499785,
+      "current_violation": 6.3725371456749045,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4549,
+      "feasible_search_proposals": 3250,
+      "elapsed_seconds": 2.80896919999941
+    },
+    {
+      "phase": "search",
+      "evaluation": 4575,
+      "temperature": null,
+      "current_fitness": -54364.673255698355,
+      "current_violation": 5.464197942825434,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4574,
+      "feasible_search_proposals": 3266,
+      "elapsed_seconds": 2.8220598999996582
+    },
+    {
+      "phase": "search",
+      "evaluation": 4600,
+      "temperature": null,
+      "current_fitness": 411.77037632799124,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4599,
+      "feasible_search_proposals": 3286,
+      "elapsed_seconds": 2.8373933999992005
+    },
+    {
+      "phase": "search",
+      "evaluation": 4625,
+      "temperature": null,
+      "current_fitness": 393.2354811044295,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4624,
+      "feasible_search_proposals": 3305,
+      "elapsed_seconds": 2.850537999998778
+    },
+    {
+      "phase": "search",
+      "evaluation": 4650,
+      "temperature": null,
+      "current_fitness": 346.6466888005679,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4649,
+      "feasible_search_proposals": 3321,
+      "elapsed_seconds": 2.8635500999989745
+    },
+    {
+      "phase": "search",
+      "evaluation": 4675,
+      "temperature": null,
+      "current_fitness": 329.9878951003492,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4674,
+      "feasible_search_proposals": 3340,
+      "elapsed_seconds": 2.8771010999989812
+    },
+    {
+      "phase": "search",
+      "evaluation": 4700,
+      "temperature": null,
+      "current_fitness": 267.26582900025096,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4699,
+      "feasible_search_proposals": 3355,
+      "elapsed_seconds": 2.891701999998986
+    },
+    {
+      "phase": "search",
+      "evaluation": 4725,
+      "temperature": null,
+      "current_fitness": 402.6533584156782,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4724,
+      "feasible_search_proposals": 3374,
+      "elapsed_seconds": 2.905747099999644
+    },
+    {
+      "phase": "search",
+      "evaluation": 4750,
+      "temperature": null,
+      "current_fitness": 395.49992607361105,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4749,
+      "feasible_search_proposals": 3390,
+      "elapsed_seconds": 2.919195199998285
+    },
+    {
+      "phase": "search",
+      "evaluation": 4775,
+      "temperature": null,
+      "current_fitness": 311.3542811731652,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4774,
+      "feasible_search_proposals": 3406,
+      "elapsed_seconds": 2.9325453999990714
+    },
+    {
+      "phase": "search",
+      "evaluation": 4800,
+      "temperature": null,
+      "current_fitness": 346.2361593318418,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4799,
+      "feasible_search_proposals": 3419,
+      "elapsed_seconds": 2.94608049999988
+    },
+    {
+      "phase": "search",
+      "evaluation": 4825,
+      "temperature": null,
+      "current_fitness": -19685.432824262072,
+      "current_violation": 2.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4824,
+      "feasible_search_proposals": 3437,
+      "elapsed_seconds": 2.9626205999993545
+    },
+    {
+      "phase": "search",
+      "evaluation": 4850,
+      "temperature": null,
+      "current_fitness": 416.7587835795098,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4849,
+      "feasible_search_proposals": 3458,
+      "elapsed_seconds": 2.9785964999991847
+    },
+    {
+      "phase": "search",
+      "evaluation": 4875,
+      "temperature": null,
+      "current_fitness": -29795.974214432674,
+      "current_violation": 3.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4874,
+      "feasible_search_proposals": 3473,
+      "elapsed_seconds": 2.9922378999999637
+    },
+    {
+      "phase": "search",
+      "evaluation": 4900,
+      "temperature": null,
+      "current_fitness": -9799.486891860628,
+      "current_violation": 1.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4899,
+      "feasible_search_proposals": 3491,
+      "elapsed_seconds": 3.005317399998603
+    },
+    {
+      "phase": "search",
+      "evaluation": 4925,
+      "temperature": null,
+      "current_fitness": 253.88202466429772,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4924,
+      "feasible_search_proposals": 3510,
+      "elapsed_seconds": 3.0182933999985835
+    },
+    {
+      "phase": "search",
+      "evaluation": 4950,
+      "temperature": null,
+      "current_fitness": 408.00704977541864,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4949,
+      "feasible_search_proposals": 3525,
+      "elapsed_seconds": 3.031052799999088
+    },
+    {
+      "phase": "search",
+      "evaluation": 4975,
+      "temperature": null,
+      "current_fitness": 176.7067994446438,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4974,
+      "feasible_search_proposals": 3545,
+      "elapsed_seconds": 3.0463283999997657
+    },
+    {
+      "phase": "search",
+      "evaluation": 5000,
+      "temperature": null,
+      "current_fitness": 323.6071176229853,
+      "current_violation": 0.0,
+      "best_fitness": 588.8439792408317,
+      "best_coverage": 819.3531685302027,
+      "best_power": 2305.0918928937094,
+      "accepted_moves": 0,
+      "search_proposals": 4999,
+      "feasible_search_proposals": 3562,
+      "elapsed_seconds": 3.0599578999990626
+    }
+  ],
+  "evaluations": 5000,
+  "phase_counts": {
+    "initialization": 1,
+    "calibration": 0,
+    "search": 4999
+  },
+  "initialization_attempts": 124,
+  "initialization_checks": 540,
+  "initialization_seconds": 0.0003856999992422061,
+  "initial_temperature": null,
+  "calibration_losses": [],
+  "calibration_fallback": false,
+  "proposals": 4999,
+  "feasible_proposals": 3562,
+  "search_proposals": 4999,
+  "feasible_search_proposals": 3562,
+  "accepted_moves": 0,
+  "elapsed_seconds": 3.0599644999983866
+}

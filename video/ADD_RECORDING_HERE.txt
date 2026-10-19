@@ -1,0 +1,4 @@
+The milestone requires a narrated screen recording of actual code execution and visualized results.
+No video was provided when this package was assembled. Add the completed recording here
+before uploading, or submit it separately if the portal requests a separate video.
+The written recording guide is not a replacement for the video.
